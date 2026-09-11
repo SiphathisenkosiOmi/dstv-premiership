@@ -92,13 +92,22 @@ function matchesFilter(...names) {
   return names.some((name) => String(name ?? '').toLowerCase().includes(state.filter));
 }
 
+/** Chronological by date then kick-off time; undated matches sort last. */
+function byKickoff(a, b) {
+  if (a.date && b.date) {
+    if (a.date !== b.date) return a.date < b.date ? -1 : 1;
+    return (a.time ?? '99:99') < (b.time ?? '99:99') ? -1 : 1;
+  }
+  return a.date ? -1 : b.date ? 1 : 0;
+}
+
 function renderCards() {
   const { standings, matches, statistics, coverage } = state.league;
   const leader = standings[0];
   const topScorer = statistics.goals[0];
   const nextMatch = matches
     .filter((match) => !match.played && match.date && match.date >= todayISO())
-    .sort((a, b) => (a.date < b.date ? -1 : 1))[0];
+    .sort(byKickoff)[0];
 
   const cards = [
     leader && {
@@ -111,15 +120,15 @@ function renderCards() {
       value: `${coverage.matchesPlayed} of ${coverage.matchesKnown}`,
       meta: `${Math.round((coverage.matchesPlayed / coverage.matchesKnown) * 100)}% of the season complete`,
     },
+    nextMatch && {
+      label: 'Next kick-off',
+      value: `${nextMatch.homeTeam} v ${nextMatch.awayTeam}`,
+      meta: `${formatDate(nextMatch.date)}${nextMatch.time ? ` · ${nextMatch.time} SAST` : ''}`,
+    },
     topScorer && {
       label: 'Golden boot',
       value: topScorer.player,
       meta: `${topScorer.value} goals · ${topScorer.club ?? 'unknown club'}`,
-    },
-    nextMatch && {
-      label: 'Next kick-off',
-      value: `${nextMatch.homeTeam} v ${nextMatch.awayTeam}`,
-      meta: `${formatDate(nextMatch.date)}${nextMatch.time ? ` · ${nextMatch.time}` : ''}`,
     },
   ].filter(Boolean);
 
@@ -219,9 +228,17 @@ function renderStandings() {
 
       const next = document.createElement('td');
       next.className = 'col-next hide-md next-cell';
-      next.textContent = row.nextFixture
-        ? `${row.nextFixture.home ? 'v' : 'at'} ${row.nextFixture.opponent}, ${formatDate(row.nextFixture.date, shortDate)}`
-        : '—';
+      if (row.nextFixture) {
+        const { home, opponent, date, time, venue, certain } = row.nextFixture;
+        next.textContent =
+          `${home ? 'v' : 'at'} ${opponent}, ${formatDate(date, shortDate)}` +
+          `${time ? ` ${time}` : ''}${certain === false ? ' ?' : ''}`;
+        next.title = certain === false
+          ? 'Earliest confirmed fixture. Another match without a published date could come first.'
+          : [venue, time ? `${time} SAST` : null].filter(Boolean).join(' · ');
+      } else {
+        next.textContent = '—';
+      }
       tr.append(next);
 
       return tr;
@@ -276,6 +293,7 @@ function matchNode(match) {
   } else {
     primary.className = 'match-kick';
     primary.textContent = match.postponed ? 'Postponed' : match.time ?? 'TBC';
+    if (match.time) primary.title = `${match.time} SAST`;
   }
   centre.append(primary);
   const meta = document.createElement('span');
@@ -332,10 +350,7 @@ function renderFixtures() {
   const upcoming = state.league.matches
     .filter((match) => !match.played && matchesFilter(match.homeTeam, match.awayTeam))
     .filter((match) => !match.date || match.date >= today)
-    .sort((a, b) => {
-      if (a.date && b.date) return a.date < b.date ? -1 : 1;
-      return a.date ? -1 : b.date ? 1 : 0;
-    });
+    .sort(byKickoff);
 
   renderMatchGroups(
     el('fixtures-list'),
@@ -348,10 +363,7 @@ function renderResults() {
   const played = state.league.matches
     .filter((match) => match.played && match.homeScore !== null)
     .filter((match) => matchesFilter(match.homeTeam, match.awayTeam))
-    .sort((a, b) => {
-      if (a.date && b.date) return a.date > b.date ? -1 : 1;
-      return a.date ? -1 : b.date ? 1 : 0;
-    });
+    .sort((a, b) => -byKickoff(a, b));
 
   renderMatchGroups(el('results-list'), groupByDate(played), 'No results to show for that filter.');
 }
@@ -522,28 +534,29 @@ function renderHeader() {
   el('freshness-text').textContent = `Data rebuilt ${relativeTime(generatedAt)}`;
   freshness.title = new Date(generatedAt).toString();
 
-  const wikipedia = sources.find((source) => source.name === 'Wikipedia');
-  el('sources-line').replaceChildren(
-    document.createTextNode('Sources: '),
-    Object.assign(document.createElement('a'), {
-      href: wikipedia?.url ?? '#',
-      textContent: wikipedia?.detail ?? 'Wikipedia',
+  const line = [document.createTextNode('Sources: ')];
+  sources.forEach((source, index) => {
+    if (index) line.push(document.createTextNode(index === sources.length - 1 ? ' and ' : ', '));
+    const link = Object.assign(document.createElement('a'), {
+      href: source.url,
+      textContent: source.name,
       rel: 'noreferrer',
-    }),
+    });
+    link.title = `${source.detail} — provides ${source.provides.join(', ')}`;
+    line.push(link);
+    if (source.available === false) line.push(document.createTextNode(' (unavailable)'));
+  });
+
+  line.push(
     document.createTextNode(
-      `${wikipedia?.lastUpdated ? ` (table updated ${formatDate(wikipedia.lastUpdated)})` : ''}, kick-off times and crests from `,
-    ),
-    Object.assign(document.createElement('a'), {
-      href: 'https://www.thesportsdb.com/',
-      textContent: 'TheSportsDB',
-      rel: 'noreferrer',
-    }),
-    document.createTextNode(
-      coverage.matchesWithKickoff < coverage.matchesKnown
-        ? `. ${coverage.matchesWithKickoff} of ${coverage.matchesKnown} matches have a confirmed kick-off time.`
-        : '.',
+      `. Kick-off times are South African time. ${
+        coverage.upcomingWithoutKickoff
+          ? `${coverage.upcomingWithoutKickoff} upcoming ${coverage.upcomingWithoutKickoff === 1 ? 'match has' : 'matches have'} no published date yet.`
+          : 'Every remaining fixture has a confirmed date.'
+      }`,
     ),
   );
+  el('sources-line').replaceChildren(...line);
 }
 
 function renderAll() {

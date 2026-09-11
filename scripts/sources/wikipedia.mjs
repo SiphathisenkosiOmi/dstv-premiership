@@ -158,6 +158,9 @@ export function parseStandings(wikitext) {
   return {
     rows,
     zones: [...zones.values()],
+    // Returned so the caller can re-apply the bands if it reorders the table
+    // using the league's own log.
+    zoneByPosition,
     sourceUpdated: parseLooseDate(params.get('update')),
     sourceNote: stripWikiMarkup(params.get('source') ?? '') || null,
   };

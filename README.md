@@ -22,25 +22,29 @@ minutes while the tab is open, and shows how long ago the data was rebuilt.
 
 ## Data sources
 
-| Source | Provides | Key needed |
+Three sources are combined, each used for what it is actually best at. None requires an API key.
+
+| Source | Provides | Authority |
 | --- | --- | --- |
-| [Wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_South_African_Premiership) season article | Standings, every result, top scorers and assists | No |
-| [TheSportsDB](https://www.thesportsdb.com/league/4802) | Kick-off dates and times, venues, club crests | Optional |
+| [psl.co.za match centre](https://www.psl.co.za/matchcentre) | The official log, every remaining fixture with its South African kick-off time and venue, recent results, club crests | Highest |
+| [Wikipedia](https://en.wikipedia.org/wiki/2026%E2%80%9327_South_African_Premiership) season article | The full results grid for all 240 meetings, top scorers and assists, the continental/relegation bands | Structural |
+| [TheSportsDB](https://www.thesportsdb.com/league/4802) | Round numbers, and kick-off times as a fallback | Lowest |
 
-Wikipedia is the source of truth for anything with a number attached to it. The season article
-carries a machine-readable league table and results grid that club editors keep current, which is
-why it can be parsed reliably rather than scraped from a rendered page. TheSportsDB only decorates
-that data with scheduling details Wikipedia does not publish.
+The league's own site wins on anything it publishes, because it updates within minutes of a final
+whistle and prints the real kick-off time. Wikipedia remains the skeleton: its season article carries
+a machine-readable table and results grid, which gives every club a stable short code, covers
+matches older than the match centre's window, and is the only source here for scorers and for which
+positions qualify for the CAF competitions.
 
-### Optional: a fuller fixture list
+Scheduling details are layered in that order, so a source only fills a gap the one above it left.
+If psl.co.za is unreachable, the run still succeeds on the other two and simply logs a warning.
 
-Without a key, the updater uses TheSportsDB's shared demo key, which caps every response at five
-rows — so roughly 60% of matches get a confirmed kick-off time and the rest show as "TBC". Matches
-are still all listed, because the fixture list comes from Wikipedia.
+### Optional: a TheSportsDB key
 
-To get all of them, [get a free TheSportsDB key](https://www.thesportsdb.com/api.php) and add it as
-a repository secret named `THESPORTSDB_KEY` (Settings → Secrets and variables → Actions). The
-workflow picks it up automatically; nothing else changes.
+TheSportsDB's shared demo key caps every response at five rows per round. This now only affects
+round numbers, since kick-off times come from the league site, so a key is rarely worth adding. If
+you want one anyway, [get a free key](https://www.thesportsdb.com/api.php) and add it as a
+repository secret named `THESPORTSDB_KEY` (Settings → Secrets and variables → Actions).
 
 ## Running it locally
 
@@ -66,12 +70,16 @@ $env:SEASON_START_YEAR=2025; npm run update # PowerShell
 | --- | --- |
 | `generatedAt` | When the updater last ran, as an ISO timestamp |
 | `season`, `competition` | Season labels and league branding |
-| `sources` | Where each part of the data came from, and when it was last edited upstream |
-| `coverage` | Team and match counts, and whether the schedule is partial |
+| `timezone` | `Africa/Johannesburg` — every `time` field is South African time |
+| `sources` | Each source, what it provided, and whether it responded this run |
+| `coverage` | Team and match counts, fixtures still lacking a date, whether the official log was applied |
 | `zones` | Continental-qualification and relegation bands, with their colours |
 | `standings` | One entry per club: record, points, zone, recent form, next fixture, crest |
 | `matches` | All 240 meetings with scores where played and kick-off details where known |
 | `statistics` | Top scorers and assist leaders |
+
+A club's `nextFixture` carries `certain: false` when some other fixture of theirs has no published
+date and could therefore fall earlier. The page marks those with a `?`.
 
 `data/history.json` keeps one dated snapshot of the table per day (the last 500), which is what the
 Trends chart draws. Because both files are committed, the repository doubles as an archive of how
@@ -86,8 +94,12 @@ alive while the season is running.
 
 ## Caveats
 
-Scores come from community-maintained sources and can lag a live broadcast by a few minutes to a few
-hours. For anything official, check [psl.co.za](https://www.psl.co.za).
+The log and the fixture list come from the league itself, but the page is only as fresh as the last
+scheduled run, so it can trail a live broadcast by up to three hours. Press **Refresh now** to
+re-read the committed data, or run the workflow manually from the Actions tab to rebuild it.
+
+Results older than the match centre's window fall back to Wikipedia, which is community-maintained
+and occasionally a match behind.
 
 ## Licence
 

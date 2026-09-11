@@ -63,8 +63,10 @@ export async function fetchSchedule(season) {
     fixtures.push({
       id: event.idEvent ?? null,
       round: event.intRound ? Number(event.intRound) : null,
-      date: event.dateEvent || null,
-      time: event.strTime ? event.strTime.slice(0, 5) : null,
+      // dateEventLocal/strTimeLocal are South African time; the unsuffixed
+      // fields are UTC and would show kick-offs two hours early.
+      date: event.dateEventLocal || event.dateEvent || null,
+      time: (event.strTimeLocal || '').slice(0, 5) || null,
       kickoff: event.strTimestamp ? `${event.strTimestamp}Z`.replace(/Z+$/, 'Z') : null,
       homeName: event.strHomeTeam ?? null,
       awayName: event.strAwayTeam ?? null,

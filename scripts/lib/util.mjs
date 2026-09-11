@@ -10,14 +10,21 @@ export function warn(...args) {
 }
 
 /** Fetch a URL with retries and exponential backoff. Returns the parsed body. */
-export async function fetchWithRetry(url, { parse = 'json', attempts = 4, timeoutMs = 20000 } = {}) {
+export async function fetchWithRetry(
+  url,
+  { parse = 'json', attempts = 4, timeoutMs = 20000, headers = {} } = {},
+) {
   let lastError;
   for (let attempt = 1; attempt <= attempts; attempt++) {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), timeoutMs);
     try {
       const response = await fetch(url, {
-        headers: { 'user-agent': USER_AGENT, accept: parse === 'json' ? 'application/json' : '*/*' },
+        headers: {
+          'user-agent': USER_AGENT,
+          accept: parse === 'json' ? 'application/json' : '*/*',
+          ...headers,
+        },
         signal: controller.signal,
       });
       if (!response.ok) {

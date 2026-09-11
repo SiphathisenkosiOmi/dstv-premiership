@@ -1,0 +1,74 @@
+name: Update data and publish
+
+on:
+  schedule:
+    # Every three hours. Times are UTC; South Africa is UTC+2.
+    - cron: '20 */3 * * *'
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Never let two runs fight over the same commit or deployment.
+concurrency:
+  group: update-and-publish
+  cancel-in-progress: false
+
+jobs:
+  refresh-data:
+    name: Refresh league data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Rebuild data/league.json and data/history.json
+        run: node scripts/update.mjs
+        env:
+          # Optional. Without it the updater falls back to TheSportsDB's shared
+          # demo key, which returns at most five matches per round.
+          THESPORTSDB_KEY: ${{ secrets.THESPORTSDB_KEY }}
+
+      - name: Commit any changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data
+          if git diff --cached --quiet; then
+            echo 'League data is unchanged; nothing to commit.'
+            exit 0
+          fi
+          git commit -m "data: refresh standings and fixtures ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+          git push
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: refresh-data
+    # Publish even if the refresh failed, so an upstream outage cannot block a
+    # code change from going live. The site keeps serving the last good data.
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # Check out again so the freshly committed data is part of the deployment.
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

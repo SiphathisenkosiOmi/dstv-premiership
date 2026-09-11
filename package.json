@@ -1,0 +1,15 @@
+{
+  "name": "dstv-premiership-tracker",
+  "version": "1.0.0",
+  "description": "Self-updating standings, fixtures and stats page for the South African Premiership (DStv/Betway Premiership).",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "update": "node scripts/update.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

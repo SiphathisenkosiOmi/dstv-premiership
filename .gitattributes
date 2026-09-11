@@ -1,0 +1,6 @@
+# Keep everything LF in the repository so the Linux GitHub Action and a Windows
+# checkout produce byte-identical data files instead of whitespace-only diffs.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary

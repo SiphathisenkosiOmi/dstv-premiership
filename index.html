@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en-ZA">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DStv Premiership Tracker</title>
+    <meta
+      name="description"
+      content="Self-updating league table, fixtures, results and scoring charts for the South African Premiership (DStv / Betway Premiership)."
+    />
+    <meta name="theme-color" content="#0b1120" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="masthead">
+      <div class="shell masthead-inner">
+        <div class="brand">
+          <img id="league-badge" class="brand-badge" alt="" hidden />
+          <div>
+            <p class="brand-kicker">South African Premiership</p>
+            <h1 class="brand-title">DStv Premiership Tracker</h1>
+            <p class="brand-sub" id="season-line">Loading season&hellip;</p>
+          </div>
+        </div>
+        <div class="masthead-actions">
+          <p class="freshness" id="freshness" aria-live="polite">
+            <span class="dot" aria-hidden="true"></span>
+            <span id="freshness-text">Checking for data&hellip;</span>
+          </p>
+          <button class="btn" id="refresh" type="button">Refresh now</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="shell" id="main">
+      <p class="alert" id="alert" role="alert" hidden></p>
+
+      <section class="cards" id="cards" aria-label="Season summary"></section>
+
+      <nav class="tabs" id="tabs" aria-label="Sections">
+        <button class="tab is-active" type="button" data-panel="table">Table</button>
+        <button class="tab" type="button" data-panel="fixtures">Fixtures</button>
+        <button class="tab" type="button" data-panel="results">Results</button>
+        <button class="tab" type="button" data-panel="scorers">Scorers</button>
+        <button class="tab" type="button" data-panel="trends">Trends</button>
+      </nav>
+
+      <div class="filters">
+        <label class="field">
+          <span class="field-label">Filter by team</span>
+          <input id="team-filter" type="search" placeholder="e.g. Pirates" autocomplete="off" />
+        </label>
+        <button class="btn btn-ghost" id="clear-filter" type="button" hidden>Clear</button>
+      </div>
+
+      <section class="panel is-active" id="panel-table" aria-label="League table">
+        <div class="table-wrap">
+          <table class="grid" id="standings">
+            <thead>
+              <tr>
+                <th class="col-pos" scope="col"><abbr title="Position">#</abbr></th>
+                <th class="col-team" scope="col">Team</th>
+                <th class="num sortable" scope="col" data-sort="played"><abbr title="Played">P</abbr></th>
+                <th class="num hide-sm sortable" scope="col" data-sort="won"><abbr title="Won">W</abbr></th>
+                <th class="num hide-sm sortable" scope="col" data-sort="drawn"><abbr title="Drawn">D</abbr></th>
+                <th class="num hide-sm sortable" scope="col" data-sort="lost"><abbr title="Lost">L</abbr></th>
+                <th class="num hide-sm sortable" scope="col" data-sort="goalsFor"><abbr title="Goals for">GF</abbr></th>
+                <th class="num hide-sm sortable" scope="col" data-sort="goalsAgainst"><abbr title="Goals against">GA</abbr></th>
+                <th class="num sortable" scope="col" data-sort="goalDifference"><abbr title="Goal difference">GD</abbr></th>
+                <th class="num sortable" scope="col" data-sort="points"><abbr title="Points">Pts</abbr></th>
+                <th class="col-form hide-sm" scope="col">Form</th>
+                <th class="col-next hide-md" scope="col">Next</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <ul class="legend" id="legend"></ul>
+        <p class="note" id="form-note"></p>
+      </section>
+
+      <section class="panel" id="panel-fixtures" aria-label="Upcoming fixtures">
+        <div id="fixtures-list" class="match-groups"></div>
+      </section>
+
+      <section class="panel" id="panel-results" aria-label="Results">
+        <div id="results-list" class="match-groups"></div>
+      </section>
+
+      <section class="panel" id="panel-scorers" aria-label="Scoring charts">
+        <div class="split">
+          <article class="board">
+            <h2 class="board-title">Top scorers</h2>
+            <ol class="chart" id="goals-chart"></ol>
+          </article>
+          <article class="board">
+            <h2 class="board-title">Most assists</h2>
+            <ol class="chart" id="assists-chart"></ol>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel" id="panel-trends" aria-label="Position trends">
+        <p class="note">
+          Every update saves a dated snapshot of the table, so this chart fills in as the season goes on.
+        </p>
+        <div class="chart-wrap" id="trends-wrap"></div>
+        <div class="chip-row" id="trend-teams"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="shell">
+        <p id="sources-line" class="footer-sources"></p>
+        <p class="footer-note">
+          Data is rebuilt by a scheduled GitHub Action and committed to this repository, so the page is
+          served entirely from static files. Scores are community-maintained and can lag a live broadcast.
+        </p>
+      </div>
+    </footer>
+
+    <script src="assets/app.js" type="module"></script>
+  </body>
+</html>

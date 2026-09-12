@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T10:51:27.532Z",
+  "updatedAt": "2026-09-12T15:35:54.466Z",
   "snapshots": [
     {
       "date": "2026-09-11",
@@ -138,15 +138,15 @@
     },
     {
       "date": "2026-09-12",
-      "capturedAt": "2026-09-12T10:51:27.532Z",
+      "capturedAt": "2026-09-12T15:35:54.466Z",
       "season": "2026-27",
       "standings": [
         {
           "code": "MSU",
           "team": "Mamelodi Sundowns",
           "position": 1,
-          "played": 7,
-          "points": 19,
+          "played": 8,
+          "points": 20,
           "goalDifference": 12
         },
         {
@@ -158,20 +158,20 @@
           "goalDifference": 11
         },
         {
-          "code": "KZC",
-          "team": "Kaizer Chiefs",
-          "position": 3,
-          "played": 5,
-          "points": 11,
-          "goalDifference": 5
-        },
-        {
           "code": "AMA",
           "team": "AmaZulu",
+          "position": 3,
+          "played": 6,
+          "points": 13,
+          "goalDifference": 2
+        },
+        {
+          "code": "KZC",
+          "team": "Kaizer Chiefs",
           "position": 4,
-          "played": 5,
-          "points": 10,
-          "goalDifference": 1
+          "played": 6,
+          "points": 12,
+          "goalDifference": 5
         },
         {
           "code": "SEK",
@@ -190,9 +190,17 @@
           "goalDifference": -2
         },
         {
+          "code": "PLK",
+          "team": "Polokwane City",
+          "position": 7,
+          "played": 6,
+          "points": 7,
+          "goalDifference": -1
+        },
+        {
           "code": "DCI",
           "team": "Durban City",
-          "position": 7,
+          "position": 8,
           "played": 5,
           "points": 6,
           "goalDifference": 1
@@ -200,7 +208,7 @@
         {
           "code": "STL",
           "team": "Stellenbosch",
-          "position": 8,
+          "position": 9,
           "played": 6,
           "points": 6,
           "goalDifference": 0
@@ -208,7 +216,7 @@
         {
           "code": "TSG",
           "team": "TS Galaxy",
-          "position": 9,
+          "position": 10,
           "played": 5,
           "points": 6,
           "goalDifference": 0
@@ -216,25 +224,17 @@
         {
           "code": "GDA",
           "team": "Lamontville Golden Arrows",
-          "position": 10,
+          "position": 11,
           "played": 5,
           "points": 6,
           "goalDifference": 0
         },
         {
-          "code": "PLK",
-          "team": "Polokwane City",
-          "position": 11,
-          "played": 5,
-          "points": 6,
-          "goalDifference": -1
-        },
-        {
           "code": "CHP",
           "team": "Chippa United",
           "position": 12,
-          "played": 5,
-          "points": 4,
+          "played": 6,
+          "points": 5,
           "goalDifference": -3
         },
         {
@@ -249,9 +249,9 @@
           "code": "MGA",
           "team": "Marumo Gallants",
           "position": 14,
-          "played": 5,
+          "played": 6,
           "points": 2,
-          "goalDifference": -5
+          "goalDifference": -6
         },
         {
           "code": "SIW",

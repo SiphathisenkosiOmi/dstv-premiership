@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T10:51:27.532Z",
+  "generatedAt": "2026-09-12T15:35:54.466Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -54,7 +54,7 @@
   "coverage": {
     "teams": 16,
     "matchesKnown": 240,
-    "matchesPlayed": 43,
+    "matchesPlayed": 45,
     "matchesWithKickoff": 235,
     "upcomingWithoutKickoff": 1,
     "officialLogApplied": true,
@@ -87,14 +87,14 @@
       "code": "MSU",
       "team": "Mamelodi Sundowns",
       "article": "Mamelodi Sundowns F.C.",
-      "played": 7,
+      "played": 8,
       "won": 6,
-      "drawn": 1,
+      "drawn": 2,
       "lost": 0,
       "goalsFor": 18,
       "goalsAgainst": 6,
       "goalDifference": 12,
-      "points": 19,
+      "points": 20,
       "pointsAdjustment": 0,
       "note": null,
       "position": 1,
@@ -218,83 +218,23 @@
       }
     },
     {
-      "code": "KZC",
-      "team": "Kaizer Chiefs",
-      "article": "Kaizer Chiefs F.C.",
-      "played": 5,
-      "won": 3,
-      "drawn": 2,
-      "lost": 0,
-      "goalsFor": 11,
-      "goalsAgainst": 6,
-      "goalDifference": 5,
-      "points": 11,
+      "code": "AMA",
+      "team": "AmaZulu",
+      "article": "AmaZulu F.C.",
+      "played": 6,
+      "won": 4,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 9,
+      "goalsAgainst": 7,
+      "goalDifference": 2,
+      "points": 13,
       "pointsAdjustment": 0,
       "note": null,
       "position": 3,
       "zone": "CCC",
       "zoneLabel": "Qualification for CAF Confederation Cup",
       "zoneColour": "#3498db",
-      "badge": "https://imageorigin.supersport.com/psl/clublogos/Kaizer%20Chiefs.png",
-      "officialName": "Kaizer Chiefs",
-      "form": [
-        {
-          "outcome": "W",
-          "opponent": "Kruger United",
-          "score": "3-1",
-          "date": "2026-08-01",
-          "home": false
-        },
-        {
-          "outcome": "W",
-          "opponent": "Sekhukhune United",
-          "score": "2-0",
-          "date": "2026-08-12",
-          "home": true
-        },
-        {
-          "outcome": "D",
-          "opponent": "Mamelodi Sundowns",
-          "score": "1-1",
-          "date": "2026-08-15",
-          "home": true
-        },
-        {
-          "outcome": "D",
-          "opponent": "Richards Bay",
-          "score": "2-2",
-          "date": "2026-08-26",
-          "home": false
-        }
-      ],
-      "formComplete": false,
-      "nextFixture": {
-        "opponent": "Polokwane City",
-        "home": false,
-        "date": "2026-09-12",
-        "time": "15:00",
-        "venue": "Old Peter Mokaba Stadium, Polokwane",
-        "certain": true
-      }
-    },
-    {
-      "code": "AMA",
-      "team": "AmaZulu",
-      "article": "AmaZulu F.C.",
-      "played": 5,
-      "won": 3,
-      "drawn": 1,
-      "lost": 1,
-      "goalsFor": 8,
-      "goalsAgainst": 7,
-      "goalDifference": 1,
-      "points": 10,
-      "pointsAdjustment": 0,
-      "note": null,
-      "position": 4,
-      "zone": null,
-      "zoneLabel": null,
-      "zoneColour": null,
       "badge": "https://imageorigin.supersport.com/psl/clublogos/AmaZulu%20FC.png",
       "officialName": "AmaZulu FC",
       "form": [
@@ -325,15 +265,89 @@
           "score": "2-1",
           "date": "2026-09-04",
           "home": false
+        },
+        {
+          "outcome": "W",
+          "opponent": "Marumo Gallants",
+          "score": "1-0",
+          "date": "2026-09-12",
+          "home": true
         }
       ],
-      "formComplete": false,
+      "formComplete": true,
       "nextFixture": {
-        "opponent": "Marumo Gallants",
-        "home": true,
-        "date": "2026-09-12",
+        "opponent": "Polokwane City",
+        "home": false,
+        "date": "2026-09-19",
+        "time": "17:30",
+        "venue": "Old Peter Mokaba Stadium, Polokwane",
+        "certain": true
+      }
+    },
+    {
+      "code": "KZC",
+      "team": "Kaizer Chiefs",
+      "article": "Kaizer Chiefs F.C.",
+      "played": 6,
+      "won": 3,
+      "drawn": 3,
+      "lost": 0,
+      "goalsFor": 12,
+      "goalsAgainst": 7,
+      "goalDifference": 5,
+      "points": 12,
+      "pointsAdjustment": 0,
+      "note": null,
+      "position": 4,
+      "zone": null,
+      "zoneLabel": null,
+      "zoneColour": null,
+      "badge": "https://imageorigin.supersport.com/psl/clublogos/Kaizer%20Chiefs.png",
+      "officialName": "Kaizer Chiefs",
+      "form": [
+        {
+          "outcome": "W",
+          "opponent": "Kruger United",
+          "score": "3-1",
+          "date": "2026-08-01",
+          "home": false
+        },
+        {
+          "outcome": "W",
+          "opponent": "Sekhukhune United",
+          "score": "2-0",
+          "date": "2026-08-12",
+          "home": true
+        },
+        {
+          "outcome": "D",
+          "opponent": "Mamelodi Sundowns",
+          "score": "1-1",
+          "date": "2026-08-15",
+          "home": true
+        },
+        {
+          "outcome": "D",
+          "opponent": "Richards Bay",
+          "score": "2-2",
+          "date": "2026-08-26",
+          "home": false
+        },
+        {
+          "outcome": "D",
+          "opponent": "Polokwane City",
+          "score": "1-1",
+          "date": "2026-09-12",
+          "home": false
+        }
+      ],
+      "formComplete": true,
+      "nextFixture": {
+        "opponent": "Lamontville Golden Arrows",
+        "home": false,
+        "date": "2026-09-20",
         "time": "15:00",
-        "venue": "Princess Magogo Stadium, Durban",
+        "venue": "Mbombela Stadium, Nelspruit",
         "certain": true
       }
     },
@@ -472,6 +486,73 @@
       }
     },
     {
+      "code": "PLK",
+      "team": "Polokwane City",
+      "article": "Polokwane City F.C.",
+      "played": 6,
+      "won": 1,
+      "drawn": 4,
+      "lost": 1,
+      "goalsFor": 8,
+      "goalsAgainst": 9,
+      "goalDifference": -1,
+      "points": 7,
+      "pointsAdjustment": 0,
+      "note": null,
+      "position": 7,
+      "zone": null,
+      "zoneLabel": null,
+      "zoneColour": null,
+      "badge": "https://imageorigin.supersport.com/psl/clublogos/Polokwane%20City.png",
+      "officialName": "Polokwane City",
+      "form": [
+        {
+          "outcome": "W",
+          "opponent": "Richards Bay",
+          "score": "2-1",
+          "date": "2026-08-02",
+          "home": false
+        },
+        {
+          "outcome": "D",
+          "opponent": "Stellenbosch",
+          "score": "3-3",
+          "date": "2026-08-11",
+          "home": true
+        },
+        {
+          "outcome": "L",
+          "opponent": "Sekhukhune United",
+          "score": "0-2",
+          "date": "2026-08-15",
+          "home": false
+        },
+        {
+          "outcome": "D",
+          "opponent": "Marumo Gallants",
+          "score": "2-2",
+          "date": "2026-09-04",
+          "home": false
+        },
+        {
+          "outcome": "D",
+          "opponent": "Kaizer Chiefs",
+          "score": "1-1",
+          "date": "2026-09-12",
+          "home": true
+        }
+      ],
+      "formComplete": true,
+      "nextFixture": {
+        "opponent": "AmaZulu",
+        "home": true,
+        "date": "2026-09-19",
+        "time": "17:30",
+        "venue": "Old Peter Mokaba Stadium, Polokwane",
+        "certain": true
+      }
+    },
+    {
       "code": "DCI",
       "team": "Durban City",
       "article": "Durban City F.C. (2024)",
@@ -485,7 +566,7 @@
       "points": 6,
       "pointsAdjustment": 0,
       "note": null,
-      "position": 7,
+      "position": 8,
       "zone": null,
       "zoneLabel": null,
       "zoneColour": null,
@@ -552,7 +633,7 @@
       "points": 6,
       "pointsAdjustment": 0,
       "note": null,
-      "position": 8,
+      "position": 9,
       "zone": null,
       "zoneLabel": null,
       "zoneColour": null,
@@ -619,7 +700,7 @@
       "points": 6,
       "pointsAdjustment": 0,
       "note": null,
-      "position": 9,
+      "position": 10,
       "zone": null,
       "zoneLabel": null,
       "zoneColour": null,
@@ -679,7 +760,7 @@
       "points": 6,
       "pointsAdjustment": 0,
       "note": null,
-      "position": 10,
+      "position": 11,
       "zone": null,
       "zoneLabel": null,
       "zoneColour": null,
@@ -733,77 +814,17 @@
       }
     },
     {
-      "code": "PLK",
-      "team": "Polokwane City",
-      "article": "Polokwane City F.C.",
-      "played": 5,
-      "won": 1,
-      "drawn": 3,
-      "lost": 1,
-      "goalsFor": 7,
-      "goalsAgainst": 8,
-      "goalDifference": -1,
-      "points": 6,
-      "pointsAdjustment": 0,
-      "note": null,
-      "position": 11,
-      "zone": null,
-      "zoneLabel": null,
-      "zoneColour": null,
-      "badge": "https://imageorigin.supersport.com/psl/clublogos/Polokwane%20City.png",
-      "officialName": "Polokwane City",
-      "form": [
-        {
-          "outcome": "W",
-          "opponent": "Richards Bay",
-          "score": "2-1",
-          "date": "2026-08-02",
-          "home": false
-        },
-        {
-          "outcome": "D",
-          "opponent": "Stellenbosch",
-          "score": "3-3",
-          "date": "2026-08-11",
-          "home": true
-        },
-        {
-          "outcome": "L",
-          "opponent": "Sekhukhune United",
-          "score": "0-2",
-          "date": "2026-08-15",
-          "home": false
-        },
-        {
-          "outcome": "D",
-          "opponent": "Marumo Gallants",
-          "score": "2-2",
-          "date": "2026-09-04",
-          "home": false
-        }
-      ],
-      "formComplete": false,
-      "nextFixture": {
-        "opponent": "Kaizer Chiefs",
-        "home": true,
-        "date": "2026-09-12",
-        "time": "15:00",
-        "venue": "Old Peter Mokaba Stadium, Polokwane",
-        "certain": true
-      }
-    },
-    {
       "code": "CHP",
       "team": "Chippa United",
       "article": "Chippa United F.C.",
-      "played": 5,
+      "played": 6,
       "won": 0,
-      "drawn": 4,
+      "drawn": 5,
       "lost": 1,
       "goalsFor": 2,
       "goalsAgainst": 5,
       "goalDifference": -3,
-      "points": 4,
+      "points": 5,
       "pointsAdjustment": 0,
       "note": null,
       "position": 12,
@@ -930,13 +951,13 @@
       "code": "MGA",
       "team": "Marumo Gallants",
       "article": "Marumo Gallants F.C.",
-      "played": 5,
+      "played": 6,
       "won": 0,
       "drawn": 2,
-      "lost": 3,
+      "lost": 4,
       "goalsFor": 5,
-      "goalsAgainst": 10,
-      "goalDifference": -5,
+      "goalsAgainst": 11,
+      "goalDifference": -6,
       "points": 2,
       "pointsAdjustment": 0,
       "note": null,
@@ -947,13 +968,6 @@
       "badge": "https://imageorigin.supersport.com/psl/clublogos/Marumo%20Gallants.png",
       "officialName": "Marumo Gallants",
       "form": [
-        {
-          "outcome": "D",
-          "opponent": "Kruger United",
-          "score": "0-0",
-          "date": "2026-08-11",
-          "home": true
-        },
         {
           "outcome": "L",
           "opponent": "Stellenbosch",
@@ -981,15 +995,22 @@
           "score": "2-2",
           "date": "2026-09-04",
           "home": true
+        },
+        {
+          "outcome": "L",
+          "opponent": "AmaZulu",
+          "score": "0-1",
+          "date": "2026-09-12",
+          "home": false
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "AmaZulu",
-        "home": false,
-        "date": "2026-09-12",
+        "opponent": "Orlando Pirates",
+        "home": true,
+        "date": "2026-09-20",
         "time": "15:00",
-        "venue": "Princess Magogo Stadium, Durban",
+        "venue": "Royal Bafokeng Stadium, Rustenburg",
         "certain": true
       }
     },
@@ -1758,9 +1779,9 @@
       "away": "MGA",
       "homeTeam": "AmaZulu",
       "awayTeam": "Marumo Gallants",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
+      "homeScore": 1,
+      "awayScore": 0,
+      "played": true,
       "round": 6,
       "date": "2026-09-12",
       "time": "15:00",
@@ -1774,9 +1795,9 @@
       "away": "KZC",
       "homeTeam": "Polokwane City",
       "awayTeam": "Kaizer Chiefs",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
+      "homeScore": 1,
+      "awayScore": 1,
+      "played": true,
       "round": 6,
       "date": "2026-09-12",
       "time": "15:00",

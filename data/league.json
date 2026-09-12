@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T15:35:54.466Z",
+  "generatedAt": "2026-09-12T20:35:54.924Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -32,7 +32,7 @@
       "name": "Wikipedia",
       "detail": "2026–27 South African Premiership",
       "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_South_African_Premiership",
-      "lastUpdated": "2026-09-09",
+      "lastUpdated": "2026-09-12",
       "available": true,
       "provides": [
         "full results grid",
@@ -54,7 +54,7 @@
   "coverage": {
     "teams": 16,
     "matchesKnown": 240,
-    "matchesPlayed": 45,
+    "matchesPlayed": 46,
     "matchesWithKickoff": 235,
     "upcomingWithoutKickoff": 1,
     "officialLogApplied": true,
@@ -91,8 +91,8 @@
       "won": 6,
       "drawn": 2,
       "lost": 0,
-      "goalsFor": 18,
-      "goalsAgainst": 6,
+      "goalsFor": 19,
+      "goalsAgainst": 7,
       "goalDifference": 12,
       "points": 20,
       "pointsAdjustment": 0,
@@ -104,13 +104,6 @@
       "badge": "https://imageorigin.supersport.com/psl/clublogos/Mamelodi%20Sundowns.png",
       "officialName": "Mamelodi Sundowns",
       "form": [
-        {
-          "outcome": "D",
-          "opponent": "Kaizer Chiefs",
-          "score": "1-1",
-          "date": "2026-08-15",
-          "home": false
-        },
         {
           "outcome": "W",
           "opponent": "Marumo Gallants",
@@ -138,15 +131,22 @@
           "score": "3-0",
           "date": "2026-09-09",
           "home": true
+        },
+        {
+          "outcome": "D",
+          "opponent": "Chippa United",
+          "score": "1-1",
+          "date": "2026-09-12",
+          "home": false
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Chippa United",
+        "opponent": "Richards Bay",
         "home": false,
-        "date": "2026-09-12",
-        "time": "17:30",
-        "venue": "Buffalo City Stadium, East London, South Africa",
+        "date": "2026-10-17",
+        "time": "20:15",
+        "venue": "Richards Bay Stadium, Richards Bay",
         "certain": true
       }
     },
@@ -821,8 +821,8 @@
       "won": 0,
       "drawn": 5,
       "lost": 1,
-      "goalsFor": 2,
-      "goalsAgainst": 5,
+      "goalsFor": 3,
+      "goalsAgainst": 6,
       "goalDifference": -3,
       "points": 5,
       "pointsAdjustment": 0,
@@ -834,13 +834,6 @@
       "badge": "https://imageorigin.supersport.com/psl/clublogos/Chippa%20United.png",
       "officialName": "Chippa United",
       "form": [
-        {
-          "outcome": "D",
-          "opponent": "Lamontville Golden Arrows",
-          "score": "0-0",
-          "date": "2026-08-01",
-          "home": false
-        },
         {
           "outcome": "D",
           "opponent": "Richards Bay",
@@ -868,15 +861,22 @@
           "score": "0-0",
           "date": "2026-09-05",
           "home": true
+        },
+        {
+          "outcome": "D",
+          "opponent": "Mamelodi Sundowns",
+          "score": "1-1",
+          "date": "2026-09-12",
+          "home": true
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Mamelodi Sundowns",
-        "home": true,
-        "date": "2026-09-12",
+        "opponent": "TS Galaxy",
+        "home": false,
+        "date": "2026-09-20",
         "time": "17:30",
-        "venue": "Buffalo City Stadium, East London, South Africa",
+        "venue": "Solomon Mahlangu Stadium, KwaMhlanga",
         "certain": true
       }
     },
@@ -1787,7 +1787,7 @@
       "time": "15:00",
       "venue": "Princess Magogo Stadium, Durban",
       "postponed": false,
-      "officialId": null,
+      "officialId": "2674019",
       "note": null
     },
     {
@@ -1803,7 +1803,7 @@
       "time": "15:00",
       "venue": "Old Peter Mokaba Stadium, Polokwane",
       "postponed": false,
-      "officialId": null,
+      "officialId": "2674020",
       "note": null
     },
     {
@@ -1811,15 +1811,15 @@
       "away": "MSU",
       "homeTeam": "Chippa United",
       "awayTeam": "Mamelodi Sundowns",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
+      "homeScore": 1,
+      "awayScore": 1,
+      "played": true,
       "round": 6,
       "date": "2026-09-12",
       "time": "17:30",
       "venue": "Buffalo City Stadium, East London, South Africa",
       "postponed": false,
-      "officialId": null,
+      "officialId": "2674021",
       "note": null
     },
     {
@@ -5125,6 +5125,14 @@
       },
       {
         "rank": 2,
+        "player": "Lehlohonolo Mojela",
+        "article": "Lehlohonolo Mojela",
+        "nationality": "RSA",
+        "club": "Sekhukhune United",
+        "value": 2
+      },
+      {
+        "rank": 2,
         "player": "Moses Mthembu",
         "article": "Moses Mthembu",
         "nationality": "RSA",
@@ -5146,14 +5154,6 @@
         "nationality": "RSA",
         "club": "Orlando Pirates",
         "value": 2
-      },
-      {
-        "rank": 10,
-        "player": "Bathusi Aubaas",
-        "article": "Bathusi Aubaas",
-        "nationality": "RSA",
-        "club": "Mamelodi Sundowns",
-        "value": 1
       }
     ]
   }

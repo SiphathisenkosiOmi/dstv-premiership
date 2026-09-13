@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T16:22:07.102Z",
+  "updatedAt": "2026-09-13T20:52:52.081Z",
   "snapshots": [
     {
       "date": "2026-09-11",
@@ -273,7 +273,7 @@
     },
     {
       "date": "2026-09-13",
-      "capturedAt": "2026-09-13T16:22:07.102Z",
+      "capturedAt": "2026-09-13T20:52:52.081Z",
       "season": "2026-27",
       "standings": [
         {
@@ -314,7 +314,7 @@
           "position": 5,
           "played": 7,
           "points": 11,
-          "goalDifference": 3
+          "goalDifference": 2
         },
         {
           "code": "SEK",
@@ -325,17 +325,9 @@
           "goalDifference": -1
         },
         {
-          "code": "TSG",
-          "team": "TS Galaxy",
-          "position": 7,
-          "played": 6,
-          "points": 7,
-          "goalDifference": 0
-        },
-        {
           "code": "GDA",
           "team": "Lamontville Golden Arrows",
-          "position": 8,
+          "position": 7,
           "played": 6,
           "points": 7,
           "goalDifference": 0
@@ -343,7 +335,7 @@
         {
           "code": "PLK",
           "team": "Polokwane City",
-          "position": 9,
+          "position": 8,
           "played": 6,
           "points": 7,
           "goalDifference": -1
@@ -351,7 +343,7 @@
         {
           "code": "DCI",
           "team": "Durban City",
-          "position": 10,
+          "position": 9,
           "played": 5,
           "points": 6,
           "goalDifference": 1
@@ -359,10 +351,18 @@
         {
           "code": "STL",
           "team": "Stellenbosch",
-          "position": 11,
+          "position": 10,
           "played": 6,
           "points": 6,
           "goalDifference": 0
+        },
+        {
+          "code": "TSG",
+          "team": "TS Galaxy",
+          "position": 11,
+          "played": 6,
+          "points": 6,
+          "goalDifference": -1
         },
         {
           "code": "CHP",
@@ -373,17 +373,25 @@
           "goalDifference": -3
         },
         {
-          "code": "RBA",
-          "team": "Richards Bay",
+          "code": "KRU",
+          "team": "Kruger United",
           "position": 13,
           "played": 6,
+          "points": 4,
+          "goalDifference": -8
+        },
+        {
+          "code": "RBA",
+          "team": "Richards Bay",
+          "position": 14,
+          "played": 6,
           "points": 3,
-          "goalDifference": -7
+          "goalDifference": -6
         },
         {
           "code": "SIW",
           "team": "Siwelele",
-          "position": 14,
+          "position": 15,
           "played": 7,
           "points": 3,
           "goalDifference": -7
@@ -391,18 +399,10 @@
         {
           "code": "MGA",
           "team": "Marumo Gallants",
-          "position": 15,
-          "played": 6,
-          "points": 2,
-          "goalDifference": -6
-        },
-        {
-          "code": "KRU",
-          "team": "Kruger United",
           "position": 16,
           "played": 6,
           "points": 2,
-          "goalDifference": -9
+          "goalDifference": -6
         }
       ]
     }

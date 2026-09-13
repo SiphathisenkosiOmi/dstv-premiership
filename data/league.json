@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T23:04:16.289Z",
+  "generatedAt": "2026-09-13T04:52:52.536Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -4999,7 +4999,7 @@
         "article": "Thandolwenkosi Ngwenya",
         "nationality": "ZIM",
         "club": "AmaZulu",
-        "value": 6
+        "value": 7
       },
       {
         "rank": 2,
@@ -5149,10 +5149,10 @@
       },
       {
         "rank": 2,
-        "player": "Lebone Seema",
-        "article": "Lebone Seema",
+        "player": "Nkosikhona Radebe",
+        "article": "Nkosikhona Radebe",
         "nationality": "RSA",
-        "club": "Orlando Pirates",
+        "club": "AmaZulu",
         "value": 2
       }
     ]

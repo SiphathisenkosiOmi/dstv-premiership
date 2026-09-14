@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T23:11:57.286Z",
+  "generatedAt": "2026-09-14T05:01:06.931Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -805,9 +805,9 @@
       ],
       "formComplete": false,
       "nextFixture": {
-        "opponent": "Kruger United",
+        "opponent": "Chippa United",
         "home": true,
-        "date": "2026-09-13",
+        "date": "2026-09-20",
         "time": "17:30",
         "venue": "Solomon Mahlangu Stadium, KwaMhlanga",
         "certain": true
@@ -939,11 +939,11 @@
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "TS Galaxy",
-        "home": false,
-        "date": "2026-09-13",
-        "time": "17:30",
-        "venue": "Solomon Mahlangu Stadium, KwaMhlanga",
+        "opponent": "Stellenbosch",
+        "home": true,
+        "date": "2026-09-19",
+        "time": "20:00",
+        "venue": "Mbombela Stadium, Nelspruit",
         "certain": true
       }
     },

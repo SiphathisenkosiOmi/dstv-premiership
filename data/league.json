@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T17:03:00.979Z",
+  "generatedAt": "2026-09-15T21:24:34.301Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -1792,9 +1792,9 @@
       "round": 6,
       "date": "2026-09-12",
       "time": "15:00",
-      "venue": "Princess Magogo Stadium, Durban",
+      "venue": "Moses Mabhida Stadium",
       "postponed": false,
-      "officialId": "2674019",
+      "officialId": null,
       "note": null
     },
     {
@@ -1824,9 +1824,9 @@
       "round": 6,
       "date": "2026-09-12",
       "time": "17:30",
-      "venue": "Buffalo City Stadium, East London, South Africa",
+      "venue": "Nelson Mandela Bay Stadium",
       "postponed": false,
-      "officialId": "2674021",
+      "officialId": null,
       "note": null
     },
     {

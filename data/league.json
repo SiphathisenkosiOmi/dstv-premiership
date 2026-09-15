@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T11:48:56.970Z",
+  "generatedAt": "2026-09-15T17:03:00.979Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -1808,9 +1808,9 @@
       "round": 6,
       "date": "2026-09-12",
       "time": "15:00",
-      "venue": "Old Peter Mokaba Stadium, Polokwane",
+      "venue": "Old Peter Mokaba Stadium",
       "postponed": false,
-      "officialId": "2674020",
+      "officialId": null,
       "note": null
     },
     {
@@ -1858,7 +1858,7 @@
       "time": "15:00",
       "venue": "Free State Stadium, Bloemfontein",
       "postponed": false,
-      "officialId": "2674023",
+      "officialId": null,
       "note": null
     },
     {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T17:02:56.206Z",
+  "updatedAt": "2026-09-17T21:25:48.488Z",
   "snapshots": [
     {
       "date": "2026-09-11",
@@ -813,7 +813,7 @@
     },
     {
       "date": "2026-09-17",
-      "capturedAt": "2026-09-17T17:02:56.206Z",
+      "capturedAt": "2026-09-17T21:25:48.488Z",
       "season": "2026-27",
       "standings": [
         {
@@ -828,9 +828,9 @@
           "code": "OPR",
           "team": "Orlando Pirates",
           "position": 2,
-          "played": 5,
-          "points": 13,
-          "goalDifference": 11
+          "played": 6,
+          "points": 16,
+          "goalDifference": 13
         },
         {
           "code": "AMA",
@@ -881,17 +881,9 @@
           "goalDifference": -1
         },
         {
-          "code": "DCI",
-          "team": "Durban City",
-          "position": 9,
-          "played": 5,
-          "points": 6,
-          "goalDifference": 1
-        },
-        {
           "code": "STL",
           "team": "Stellenbosch",
-          "position": 10,
+          "position": 9,
           "played": 6,
           "points": 6,
           "goalDifference": 0
@@ -899,6 +891,14 @@
         {
           "code": "TSG",
           "team": "TS Galaxy",
+          "position": 10,
+          "played": 6,
+          "points": 6,
+          "goalDifference": -1
+        },
+        {
+          "code": "DCI",
+          "team": "Durban City",
           "position": 11,
           "played": 6,
           "points": 6,

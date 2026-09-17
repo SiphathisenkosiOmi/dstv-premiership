@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T17:02:56.206Z",
+  "generatedAt": "2026-09-17T21:25:48.488Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -154,14 +154,14 @@
       "code": "OPR",
       "team": "Orlando Pirates",
       "article": "Orlando Pirates F.C.",
-      "played": 5,
-      "won": 4,
+      "played": 6,
+      "won": 5,
       "drawn": 1,
       "lost": 0,
-      "goalsFor": 12,
+      "goalsFor": 14,
       "goalsAgainst": 1,
-      "goalDifference": 11,
-      "points": 13,
+      "goalDifference": 13,
+      "points": 16,
       "pointsAdjustment": 0,
       "note": null,
       "position": 2,
@@ -620,73 +620,6 @@
       }
     },
     {
-      "code": "DCI",
-      "team": "Durban City",
-      "article": "Durban City F.C. (2024)",
-      "played": 5,
-      "won": 1,
-      "drawn": 3,
-      "lost": 1,
-      "goalsFor": 3,
-      "goalsAgainst": 2,
-      "goalDifference": 1,
-      "points": 6,
-      "pointsAdjustment": 0,
-      "note": null,
-      "position": 9,
-      "zone": null,
-      "zoneLabel": null,
-      "zoneColour": null,
-      "badge": "https://imageorigin.supersport.com/psl/clublogos/Durban%20City.png",
-      "officialName": "Durban City",
-      "form": [
-        {
-          "outcome": "L",
-          "opponent": "Sekhukhune United",
-          "score": "0-1",
-          "date": "2026-08-01",
-          "home": false
-        },
-        {
-          "outcome": "D",
-          "opponent": "Lamontville Golden Arrows",
-          "score": "0-0",
-          "date": "2026-08-12",
-          "home": true
-        },
-        {
-          "outcome": "D",
-          "opponent": "Richards Bay",
-          "score": "1-1",
-          "date": "2026-08-15",
-          "home": true
-        },
-        {
-          "outcome": "W",
-          "opponent": "Kruger United",
-          "score": "2-0",
-          "date": "2026-08-25",
-          "home": false
-        },
-        {
-          "outcome": "D",
-          "opponent": "Stellenbosch",
-          "score": "0-0",
-          "date": "2026-09-01",
-          "home": true
-        }
-      ],
-      "formComplete": true,
-      "nextFixture": {
-        "opponent": "Orlando Pirates",
-        "home": false,
-        "date": "2026-09-17",
-        "time": "19:30",
-        "venue": "Orlando Amstel Arena, Soweto",
-        "certain": true
-      }
-    },
-    {
       "code": "STL",
       "team": "Stellenbosch",
       "article": "Stellenbosch F.C.",
@@ -700,7 +633,7 @@
       "points": 6,
       "pointsAdjustment": 0,
       "note": null,
-      "position": 10,
+      "position": 9,
       "zone": null,
       "zoneLabel": null,
       "zoneColour": null,
@@ -767,7 +700,7 @@
       "points": 6,
       "pointsAdjustment": 0,
       "note": null,
-      "position": 11,
+      "position": 10,
       "zone": null,
       "zoneLabel": null,
       "zoneColour": null,
@@ -817,6 +750,73 @@
         "date": "2026-09-20",
         "time": "17:30",
         "venue": "Solomon Mahlangu Stadium, KwaMhlanga",
+        "certain": true
+      }
+    },
+    {
+      "code": "DCI",
+      "team": "Durban City",
+      "article": "Durban City F.C. (2024)",
+      "played": 6,
+      "won": 1,
+      "drawn": 3,
+      "lost": 2,
+      "goalsFor": 3,
+      "goalsAgainst": 4,
+      "goalDifference": -1,
+      "points": 6,
+      "pointsAdjustment": 0,
+      "note": null,
+      "position": 11,
+      "zone": null,
+      "zoneLabel": null,
+      "zoneColour": null,
+      "badge": "https://imageorigin.supersport.com/psl/clublogos/Durban%20City.png",
+      "officialName": "Durban City",
+      "form": [
+        {
+          "outcome": "L",
+          "opponent": "Sekhukhune United",
+          "score": "0-1",
+          "date": "2026-08-01",
+          "home": false
+        },
+        {
+          "outcome": "D",
+          "opponent": "Lamontville Golden Arrows",
+          "score": "0-0",
+          "date": "2026-08-12",
+          "home": true
+        },
+        {
+          "outcome": "D",
+          "opponent": "Richards Bay",
+          "score": "1-1",
+          "date": "2026-08-15",
+          "home": true
+        },
+        {
+          "outcome": "W",
+          "opponent": "Kruger United",
+          "score": "2-0",
+          "date": "2026-08-25",
+          "home": false
+        },
+        {
+          "outcome": "D",
+          "opponent": "Stellenbosch",
+          "score": "0-0",
+          "date": "2026-09-01",
+          "home": true
+        }
+      ],
+      "formComplete": true,
+      "nextFixture": {
+        "opponent": "Orlando Pirates",
+        "home": false,
+        "date": "2026-09-17",
+        "time": "19:30",
+        "venue": "Orlando Amstel Arena, Soweto",
         "certain": true
       }
     },

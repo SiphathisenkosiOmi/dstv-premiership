@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T11:46:28.941Z",
+  "generatedAt": "2026-09-17T17:02:56.206Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -1933,7 +1933,7 @@
       "homeScore": null,
       "awayScore": null,
       "played": false,
-      "round": null,
+      "round": 7,
       "date": "2026-09-19",
       "time": "20:00",
       "venue": "Mbombela Stadium, Nelspruit",

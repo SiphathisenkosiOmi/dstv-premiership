@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T16:27:38.635Z",
+  "generatedAt": "2026-09-18T20:56:47.193Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -144,9 +144,9 @@
       "nextFixture": {
         "opponent": "Richards Bay",
         "home": false,
-        "date": "2026-10-17",
-        "time": "20:15",
-        "venue": "Richards Bay Stadium, Richards Bay",
+        "date": "2026-10-13",
+        "time": "19:30",
+        "venue": "Princess Magogo Stadium, Durban",
         "certain": true
       }
     },
@@ -2022,6 +2022,22 @@
       "note": null
     },
     {
+      "home": "RBA",
+      "away": "MSU",
+      "homeTeam": "Richards Bay",
+      "awayTeam": "Mamelodi Sundowns",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "round": null,
+      "date": "2026-10-13",
+      "time": "19:30",
+      "venue": "Princess Magogo Stadium, Durban",
+      "postponed": false,
+      "officialId": null,
+      "note": null
+    },
+    {
       "home": "CHP",
       "away": "KRU",
       "homeTeam": "Chippa United",
@@ -2081,22 +2097,6 @@
       "date": "2026-10-17",
       "time": "18:00",
       "venue": "Peter Mokaba Stadium, Polokwane",
-      "postponed": false,
-      "officialId": null,
-      "note": null
-    },
-    {
-      "home": "RBA",
-      "away": "MSU",
-      "homeTeam": "Richards Bay",
-      "awayTeam": "Mamelodi Sundowns",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
-      "round": null,
-      "date": "2026-10-17",
-      "time": "20:15",
-      "venue": "Richards Bay Stadium, Richards Bay",
       "postponed": false,
       "officialId": null,
       "note": null

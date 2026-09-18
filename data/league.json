@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T21:25:48.488Z",
+  "generatedAt": "2026-09-18T11:20:47.930Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -209,11 +209,11 @@
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Durban City",
-        "home": true,
-        "date": "2026-09-17",
-        "time": "19:30",
-        "venue": "Orlando Amstel Arena, Soweto",
+        "opponent": "Marumo Gallants",
+        "home": false,
+        "date": "2026-09-20",
+        "time": "15:00",
+        "venue": "Royal Bafokeng Stadium, Rustenburg",
         "certain": true
       }
     },
@@ -812,11 +812,11 @@
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Orlando Pirates",
+        "opponent": "Milford",
         "home": false,
-        "date": "2026-09-17",
-        "time": "19:30",
-        "venue": "Orlando Amstel Arena, Soweto",
+        "date": "2026-09-20",
+        "time": "15:00",
+        "venue": "Sugar Ray Xulu Stadium, Clermont",
         "certain": true
       }
     },

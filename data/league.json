@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T20:56:47.193Z",
+  "generatedAt": "2026-09-18T23:20:02.761Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -54,7 +54,7 @@
   "coverage": {
     "teams": 16,
     "matchesKnown": 240,
-    "matchesPlayed": 49,
+    "matchesPlayed": 50,
     "matchesWithKickoff": 235,
     "upcomingWithoutKickoff": 1,
     "officialLogApplied": true,
@@ -172,13 +172,6 @@
       "officialName": "Orlando Pirates",
       "form": [
         {
-          "outcome": "W",
-          "opponent": "Milford",
-          "score": "2-0",
-          "date": "2026-08-01",
-          "home": true
-        },
-        {
           "outcome": "D",
           "opponent": "AmaZulu",
           "score": "1-1",
@@ -205,6 +198,13 @@
           "score": "4-0",
           "date": "2026-09-01",
           "home": false
+        },
+        {
+          "outcome": "W",
+          "opponent": "Durban City",
+          "score": "2-0",
+          "date": "2026-09-17",
+          "home": true
         }
       ],
       "formComplete": true,
@@ -775,13 +775,6 @@
       "officialName": "Durban City",
       "form": [
         {
-          "outcome": "L",
-          "opponent": "Sekhukhune United",
-          "score": "0-1",
-          "date": "2026-08-01",
-          "home": false
-        },
-        {
           "outcome": "D",
           "opponent": "Lamontville Golden Arrows",
           "score": "0-0",
@@ -808,6 +801,13 @@
           "score": "0-0",
           "date": "2026-09-01",
           "home": true
+        },
+        {
+          "outcome": "L",
+          "opponent": "Orlando Pirates",
+          "score": "0-2",
+          "date": "2026-09-17",
+          "home": false
         }
       ],
       "formComplete": true,
@@ -1882,9 +1882,9 @@
       "away": "DCI",
       "homeTeam": "Orlando Pirates",
       "awayTeam": "Durban City",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
+      "homeScore": 2,
+      "awayScore": 0,
+      "played": true,
       "round": null,
       "date": "2026-09-17",
       "time": "19:30",
@@ -5034,6 +5034,14 @@
       },
       {
         "rank": 3,
+        "player": "Tshepang Moremi",
+        "article": "Tshepang Moremi",
+        "nationality": "RSA",
+        "club": "Orlando Pirates",
+        "value": 3
+      },
+      {
+        "rank": 3,
         "player": "Khetukuthula Ndlovu",
         "article": "Khetukuthula Ndlovu",
         "nationality": "RSA",
@@ -5057,7 +5065,7 @@
         "value": 3
       },
       {
-        "rank": 8,
+        "rank": 9,
         "player": "Oswin Appollis",
         "article": "Oswin Appollis",
         "nationality": "RSA",
@@ -5065,19 +5073,11 @@
         "value": 2
       },
       {
-        "rank": 8,
+        "rank": 9,
         "player": "Junior Dion",
         "article": "Junior Dion",
         "nationality": "CHA",
         "club": "Golden Arrows",
-        "value": 2
-      },
-      {
-        "rank": 8,
-        "player": "Msindisi Kunene",
-        "article": "Msindisi Kunene",
-        "nationality": "RSA",
-        "club": "Marumo Gallants",
         "value": 2
       }
     ],

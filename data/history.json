@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T15:54:51.289Z",
+  "updatedAt": "2026-09-19T20:44:26.578Z",
   "snapshots": [
     {
       "date": "2026-09-11",
@@ -1083,7 +1083,7 @@
     },
     {
       "date": "2026-09-19",
-      "capturedAt": "2026-09-19T15:54:51.289Z",
+      "capturedAt": "2026-09-19T20:44:26.578Z",
       "season": "2026-27",
       "standings": [
         {
@@ -1135,9 +1135,17 @@
           "goalDifference": 0
         },
         {
+          "code": "STL",
+          "team": "Stellenbosch",
+          "position": 7,
+          "played": 7,
+          "points": 9,
+          "goalDifference": 1
+        },
+        {
           "code": "GDA",
           "team": "Lamontville Golden Arrows",
-          "position": 7,
+          "position": 8,
           "played": 6,
           "points": 7,
           "goalDifference": 0
@@ -1145,18 +1153,10 @@
         {
           "code": "PLK",
           "team": "Polokwane City",
-          "position": 8,
+          "position": 9,
           "played": 7,
           "points": 7,
           "goalDifference": -2
-        },
-        {
-          "code": "STL",
-          "team": "Stellenbosch",
-          "position": 9,
-          "played": 6,
-          "points": 6,
-          "goalDifference": 0
         },
         {
           "code": "TSG",
@@ -1186,9 +1186,9 @@
           "code": "KRU",
           "team": "Kruger United",
           "position": 13,
-          "played": 6,
+          "played": 7,
           "points": 4,
-          "goalDifference": -8
+          "goalDifference": -9
         },
         {
           "code": "RBA",

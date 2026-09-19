@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T15:54:51.289Z",
+  "generatedAt": "2026-09-19T20:44:26.578Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -54,7 +54,7 @@
   "coverage": {
     "teams": 16,
     "matchesKnown": 240,
-    "matchesPlayed": 51,
+    "matchesPlayed": 53,
     "matchesWithKickoff": 235,
     "upcomingWithoutKickoff": 1,
     "officialLogApplied": true,
@@ -239,13 +239,6 @@
       "officialName": "AmaZulu FC",
       "form": [
         {
-          "outcome": "W",
-          "opponent": "Stellenbosch",
-          "score": "1-0",
-          "date": "2026-08-01",
-          "home": false
-        },
-        {
           "outcome": "D",
           "opponent": "Orlando Pirates",
           "score": "1-1",
@@ -272,15 +265,22 @@
           "score": "1-0",
           "date": "2026-09-12",
           "home": true
+        },
+        {
+          "outcome": "W",
+          "opponent": "Polokwane City",
+          "score": "1-0",
+          "date": "2026-09-19",
+          "home": false
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Polokwane City",
+        "opponent": "Durban City",
         "home": false,
-        "date": "2026-09-19",
-        "time": "17:30",
-        "venue": "Old Peter Mokaba Stadium",
+        "date": "2026-10-13",
+        "time": "19:30",
+        "venue": "Chatsworth Stadium, Chatsworth",
         "certain": true
       }
     },
@@ -486,6 +486,73 @@
       }
     },
     {
+      "code": "STL",
+      "team": "Stellenbosch",
+      "article": "Stellenbosch F.C.",
+      "played": 7,
+      "won": 2,
+      "drawn": 3,
+      "lost": 2,
+      "goalsFor": 8,
+      "goalsAgainst": 7,
+      "goalDifference": 1,
+      "points": 9,
+      "pointsAdjustment": 0,
+      "note": null,
+      "position": 7,
+      "zone": null,
+      "zoneLabel": null,
+      "zoneColour": null,
+      "badge": "https://imageorigin.supersport.com/psl/clublogos/Stellenbosch%20FC.png",
+      "officialName": "Stellenbosch FC",
+      "form": [
+        {
+          "outcome": "W",
+          "opponent": "Marumo Gallants",
+          "score": "3-1",
+          "date": "2026-08-14",
+          "home": true
+        },
+        {
+          "outcome": "L",
+          "opponent": "Lamontville Golden Arrows",
+          "score": "0-1",
+          "date": "2026-08-26",
+          "home": false
+        },
+        {
+          "outcome": "D",
+          "opponent": "Durban City",
+          "score": "0-0",
+          "date": "2026-09-01",
+          "home": false
+        },
+        {
+          "outcome": "D",
+          "opponent": "Sekhukhune United",
+          "score": "1-1",
+          "date": "2026-09-11",
+          "home": true
+        },
+        {
+          "outcome": "W",
+          "opponent": "Kruger United",
+          "score": "1-0",
+          "date": "2026-09-19",
+          "home": false
+        }
+      ],
+      "formComplete": true,
+      "nextFixture": {
+        "opponent": "Kaizer Chiefs",
+        "home": false,
+        "date": "2026-10-17",
+        "time": "15:30",
+        "venue": "FNB Stadium, Johannesburg",
+        "certain": true
+      }
+    },
+    {
       "code": "GDA",
       "team": "Lamontville Golden Arrows",
       "article": "Lamontville Golden Arrows F.C.",
@@ -499,7 +566,7 @@
       "points": 7,
       "pointsAdjustment": 0,
       "note": null,
-      "position": 7,
+      "position": 8,
       "zone": null,
       "zoneLabel": null,
       "zoneColour": null,
@@ -566,20 +633,13 @@
       "points": 7,
       "pointsAdjustment": 0,
       "note": null,
-      "position": 8,
+      "position": 9,
       "zone": null,
       "zoneLabel": null,
       "zoneColour": null,
       "badge": "https://imageorigin.supersport.com/psl/clublogos/Polokwane%20City.png",
       "officialName": "Polokwane City",
       "form": [
-        {
-          "outcome": "W",
-          "opponent": "Richards Bay",
-          "score": "2-1",
-          "date": "2026-08-02",
-          "home": false
-        },
         {
           "outcome": "D",
           "opponent": "Stellenbosch",
@@ -607,82 +667,22 @@
           "score": "1-1",
           "date": "2026-09-12",
           "home": true
-        }
-      ],
-      "formComplete": true,
-      "nextFixture": {
-        "opponent": "AmaZulu",
-        "home": true,
-        "date": "2026-09-19",
-        "time": "17:30",
-        "venue": "Old Peter Mokaba Stadium",
-        "certain": true
-      }
-    },
-    {
-      "code": "STL",
-      "team": "Stellenbosch",
-      "article": "Stellenbosch F.C.",
-      "played": 6,
-      "won": 1,
-      "drawn": 3,
-      "lost": 2,
-      "goalsFor": 7,
-      "goalsAgainst": 7,
-      "goalDifference": 0,
-      "points": 6,
-      "pointsAdjustment": 0,
-      "note": null,
-      "position": 9,
-      "zone": null,
-      "zoneLabel": null,
-      "zoneColour": null,
-      "badge": "https://imageorigin.supersport.com/psl/clublogos/Stellenbosch%20FC.png",
-      "officialName": "Stellenbosch FC",
-      "form": [
-        {
-          "outcome": "D",
-          "opponent": "Polokwane City",
-          "score": "3-3",
-          "date": "2026-08-11",
-          "home": false
-        },
-        {
-          "outcome": "W",
-          "opponent": "Marumo Gallants",
-          "score": "3-1",
-          "date": "2026-08-14",
-          "home": true
         },
         {
           "outcome": "L",
-          "opponent": "Lamontville Golden Arrows",
+          "opponent": "AmaZulu",
           "score": "0-1",
-          "date": "2026-08-26",
-          "home": false
-        },
-        {
-          "outcome": "D",
-          "opponent": "Durban City",
-          "score": "0-0",
-          "date": "2026-09-01",
-          "home": false
-        },
-        {
-          "outcome": "D",
-          "opponent": "Sekhukhune United",
-          "score": "1-1",
-          "date": "2026-09-11",
+          "date": "2026-09-19",
           "home": true
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Kruger United",
+        "opponent": "Siwelele",
         "home": false,
-        "date": "2026-09-19",
-        "time": "20:00",
-        "venue": "Mbombela Stadium, Nelspruit",
+        "date": "2026-10-18",
+        "time": "15:30",
+        "venue": "Dr Molemela Stadium, Bloemfontein",
         "certain": true
       }
     },
@@ -891,13 +891,13 @@
       "code": "KRU",
       "team": "Kruger United",
       "article": "Kruger United F.C.",
-      "played": 6,
+      "played": 7,
       "won": 1,
       "drawn": 1,
-      "lost": 4,
+      "lost": 5,
       "goalsFor": 3,
-      "goalsAgainst": 11,
-      "goalDifference": -8,
+      "goalsAgainst": 12,
+      "goalDifference": -9,
       "points": 4,
       "pointsAdjustment": 0,
       "note": null,
@@ -908,13 +908,6 @@
       "badge": "https://imageorigin.supersport.com/psl/clublogos/Kruger%20United.png",
       "officialName": "Kruger United",
       "form": [
-        {
-          "outcome": "D",
-          "opponent": "Marumo Gallants",
-          "score": "0-0",
-          "date": "2026-08-11",
-          "home": false
-        },
         {
           "outcome": "L",
           "opponent": "Milford",
@@ -942,15 +935,22 @@
           "score": "1-0",
           "date": "2026-09-13",
           "home": false
+        },
+        {
+          "outcome": "L",
+          "opponent": "Stellenbosch",
+          "score": "0-1",
+          "date": "2026-09-19",
+          "home": true
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Stellenbosch",
-        "home": true,
-        "date": "2026-09-19",
-        "time": "20:00",
-        "venue": "Mbombela Stadium, Nelspruit",
+        "opponent": "Chippa United",
+        "home": false,
+        "date": "2026-10-17",
+        "time": "15:30",
+        "venue": "Buffalo City Stadium, East London, South Africa",
         "certain": true
       }
     },
@@ -1904,9 +1904,9 @@
       "round": 7,
       "date": "2026-09-19",
       "time": "15:00",
-      "venue": "King Goodwill Zwelithini Stadium",
+      "venue": "Princess Magogo Stadium, Durban",
       "postponed": false,
-      "officialId": null,
+      "officialId": "2674026",
       "note": null
     },
     {
@@ -1914,15 +1914,15 @@
       "away": "AMA",
       "homeTeam": "Polokwane City",
       "awayTeam": "AmaZulu",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
+      "homeScore": 0,
+      "awayScore": 1,
+      "played": true,
       "round": 7,
       "date": "2026-09-19",
       "time": "17:30",
-      "venue": "Old Peter Mokaba Stadium",
+      "venue": "Old Peter Mokaba Stadium, Polokwane",
       "postponed": false,
-      "officialId": null,
+      "officialId": "2674029",
       "note": null
     },
     {
@@ -1930,13 +1930,13 @@
       "away": "STL",
       "homeTeam": "Kruger United",
       "awayTeam": "Stellenbosch",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
+      "homeScore": 0,
+      "awayScore": 1,
+      "played": true,
       "round": 7,
       "date": "2026-09-19",
       "time": "20:00",
-      "venue": "Mbombela Stadium, Nelspruit",
+      "venue": "Mbombela Stadium",
       "postponed": false,
       "officialId": null,
       "note": null

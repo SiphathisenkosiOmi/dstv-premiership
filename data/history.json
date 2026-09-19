@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T11:04:38.772Z",
+  "updatedAt": "2026-09-19T15:54:51.289Z",
   "snapshots": [
     {
       "date": "2026-09-11",
@@ -1083,7 +1083,7 @@
     },
     {
       "date": "2026-09-19",
-      "capturedAt": "2026-09-19T11:04:38.772Z",
+      "capturedAt": "2026-09-19T15:54:51.289Z",
       "season": "2026-27",
       "standings": [
         {
@@ -1106,9 +1106,9 @@
           "code": "AMA",
           "team": "AmaZulu",
           "position": 3,
-          "played": 6,
-          "points": 13,
-          "goalDifference": 2
+          "played": 7,
+          "points": 16,
+          "goalDifference": 3
         },
         {
           "code": "KZC",
@@ -1130,9 +1130,9 @@
           "code": "SEK",
           "team": "Sekhukhune United",
           "position": 6,
-          "played": 6,
-          "points": 8,
-          "goalDifference": -1
+          "played": 7,
+          "points": 11,
+          "goalDifference": 0
         },
         {
           "code": "GDA",
@@ -1146,9 +1146,9 @@
           "code": "PLK",
           "team": "Polokwane City",
           "position": 8,
-          "played": 6,
+          "played": 7,
           "points": 7,
-          "goalDifference": -1
+          "goalDifference": -2
         },
         {
           "code": "STL",
@@ -1194,9 +1194,9 @@
           "code": "RBA",
           "team": "Richards Bay",
           "position": 14,
-          "played": 6,
+          "played": 7,
           "points": 3,
-          "goalDifference": -6
+          "goalDifference": -7
         },
         {
           "code": "SIW",

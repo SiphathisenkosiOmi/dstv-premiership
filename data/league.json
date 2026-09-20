@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T16:11:02.698Z",
+  "generatedAt": "2026-09-20T20:51:58.775Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -32,7 +32,7 @@
       "name": "Wikipedia",
       "detail": "2026–27 South African Premiership",
       "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_South_African_Premiership",
-      "lastUpdated": "2026-09-19",
+      "lastUpdated": "2026-09-20",
       "available": true,
       "provides": [
         "full results grid",
@@ -54,7 +54,7 @@
   "coverage": {
     "teams": 16,
     "matchesKnown": 240,
-    "matchesPlayed": 54,
+    "matchesPlayed": 57,
     "matchesWithKickoff": 235,
     "upcomingWithoutKickoff": 1,
     "officialLogApplied": true,
@@ -172,13 +172,6 @@
       "officialName": "Orlando Pirates",
       "form": [
         {
-          "outcome": "D",
-          "opponent": "AmaZulu",
-          "score": "1-1",
-          "date": "2026-08-12",
-          "home": false
-        },
-        {
           "outcome": "W",
           "opponent": "Chippa United",
           "score": "3-0",
@@ -205,15 +198,22 @@
           "score": "2-0",
           "date": "2026-09-17",
           "home": true
+        },
+        {
+          "outcome": "W",
+          "opponent": "Marumo Gallants",
+          "score": "2-0",
+          "date": "2026-09-20",
+          "home": false
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Marumo Gallants",
-        "home": false,
-        "date": "2026-09-20",
-        "time": "15:00",
-        "venue": "Royal Bafokeng Stadium, Rustenburg",
+        "opponent": "TS Galaxy",
+        "home": true,
+        "date": "2026-10-18",
+        "time": "18:00",
+        "venue": "Orlando Amstel Arena, Soweto",
         "certain": true
       }
     },
@@ -374,13 +374,6 @@
       "form": [
         {
           "outcome": "W",
-          "opponent": "Siwelele",
-          "score": "1-0",
-          "date": "2026-08-12",
-          "home": true
-        },
-        {
-          "outcome": "W",
           "opponent": "Kruger United",
           "score": "2-1",
           "date": "2026-08-15",
@@ -406,15 +399,22 @@
           "score": "5-1",
           "date": "2026-09-13",
           "home": true
+        },
+        {
+          "outcome": "D",
+          "opponent": "Durban City",
+          "score": "1-1",
+          "date": "2026-09-20",
+          "home": true
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Durban City",
-        "home": true,
-        "date": "2026-09-20",
-        "time": "15:00",
-        "venue": "Sugar Ray Xulu Stadium, Clermont",
+        "opponent": "Lamontville Golden Arrows",
+        "home": false,
+        "date": "2026-10-17",
+        "time": "15:30",
+        "venue": "King Goodwill Zwelithini Stadium, Durban",
         "certain": true
       }
     },
@@ -620,69 +620,69 @@
       }
     },
     {
-      "code": "TSG",
-      "team": "TS Galaxy",
-      "article": "TS Galaxy F.C.",
+      "code": "CHP",
+      "team": "Chippa United",
+      "article": "Chippa United F.C.",
       "played": 7,
       "won": 1,
-      "drawn": 4,
-      "lost": 2,
-      "goalsFor": 7,
-      "goalsAgainst": 8,
-      "goalDifference": -1,
-      "points": 7,
+      "drawn": 5,
+      "lost": 1,
+      "goalsFor": 4,
+      "goalsAgainst": 6,
+      "goalDifference": -2,
+      "points": 8,
       "pointsAdjustment": 0,
       "note": null,
       "position": 9,
       "zone": null,
       "zoneLabel": null,
       "zoneColour": null,
-      "badge": "https://imageorigin.supersport.com/psl/clublogos/TS%20Galaxy.png",
-      "officialName": "TS Galaxy",
+      "badge": "https://imageorigin.supersport.com/psl/clublogos/Chippa%20United.png",
+      "officialName": "Chippa United",
       "form": [
         {
-          "outcome": "D",
-          "opponent": "Siwelele",
-          "score": "2-2",
-          "date": "2026-08-02",
-          "home": false
-        },
-        {
           "outcome": "L",
-          "opponent": "Mamelodi Sundowns",
-          "score": "2-3",
-          "date": "2026-08-11",
-          "home": true
-        },
-        {
-          "outcome": "D",
-          "opponent": "Lamontville Golden Arrows",
-          "score": "0-0",
+          "opponent": "Orlando Pirates",
+          "score": "0-3",
           "date": "2026-08-16",
           "home": true
         },
         {
-          "outcome": "W",
-          "opponent": "Marumo Gallants",
-          "score": "3-2",
+          "outcome": "D",
+          "opponent": "Siwelele",
+          "score": "1-1",
           "date": "2026-08-25",
           "home": false
         },
         {
-          "outcome": "L",
-          "opponent": "Kruger United",
-          "score": "0-1",
-          "date": "2026-09-13",
+          "outcome": "D",
+          "opponent": "Milford",
+          "score": "0-0",
+          "date": "2026-09-05",
           "home": true
+        },
+        {
+          "outcome": "D",
+          "opponent": "Mamelodi Sundowns",
+          "score": "1-1",
+          "date": "2026-09-12",
+          "home": true
+        },
+        {
+          "outcome": "W",
+          "opponent": "TS Galaxy",
+          "score": "1-0",
+          "date": "2026-09-20",
+          "home": false
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Chippa United",
+        "opponent": "Kruger United",
         "home": true,
-        "date": "2026-09-20",
-        "time": "17:30",
-        "venue": "Solomon Mahlangu Stadium, KwaMhlanga",
+        "date": "2026-10-17",
+        "time": "15:30",
+        "venue": "Buffalo City Stadium, East London, South Africa",
         "certain": true
       }
     },
@@ -707,13 +707,6 @@
       "badge": "https://imageorigin.supersport.com/psl/clublogos/Durban%20City.png",
       "officialName": "Durban City",
       "form": [
-        {
-          "outcome": "D",
-          "opponent": "Lamontville Golden Arrows",
-          "score": "0-0",
-          "date": "2026-08-12",
-          "home": true
-        },
         {
           "outcome": "D",
           "opponent": "Richards Bay",
@@ -741,15 +734,22 @@
           "score": "0-2",
           "date": "2026-09-17",
           "home": false
+        },
+        {
+          "outcome": "D",
+          "opponent": "Milford",
+          "score": "1-1",
+          "date": "2026-09-20",
+          "home": false
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Milford",
-        "home": false,
-        "date": "2026-09-20",
-        "time": "15:00",
-        "venue": "Sugar Ray Xulu Stadium, Clermont",
+        "opponent": "AmaZulu",
+        "home": true,
+        "date": "2026-10-13",
+        "time": "19:30",
+        "venue": "Chatsworth Stadium, Chatsworth",
         "certain": true
       }
     },
@@ -821,16 +821,16 @@
       }
     },
     {
-      "code": "CHP",
-      "team": "Chippa United",
-      "article": "Chippa United F.C.",
+      "code": "TSG",
+      "team": "TS Galaxy",
+      "article": "TS Galaxy F.C.",
       "played": 7,
-      "won": 0,
-      "drawn": 6,
-      "lost": 1,
-      "goalsFor": 3,
-      "goalsAgainst": 6,
-      "goalDifference": -3,
+      "won": 1,
+      "drawn": 3,
+      "lost": 3,
+      "goalsFor": 7,
+      "goalsAgainst": 9,
+      "goalDifference": -2,
       "points": 6,
       "pointsAdjustment": 0,
       "note": null,
@@ -838,52 +838,52 @@
       "zone": null,
       "zoneLabel": null,
       "zoneColour": null,
-      "badge": "https://imageorigin.supersport.com/psl/clublogos/Chippa%20United.png",
-      "officialName": "Chippa United",
+      "badge": "https://imageorigin.supersport.com/psl/clublogos/TS%20Galaxy.png",
+      "officialName": "TS Galaxy",
       "form": [
         {
-          "outcome": "D",
-          "opponent": "Richards Bay",
-          "score": "1-1",
+          "outcome": "L",
+          "opponent": "Mamelodi Sundowns",
+          "score": "2-3",
           "date": "2026-08-11",
           "home": true
         },
         {
-          "outcome": "L",
-          "opponent": "Orlando Pirates",
-          "score": "0-3",
+          "outcome": "D",
+          "opponent": "Lamontville Golden Arrows",
+          "score": "0-0",
           "date": "2026-08-16",
           "home": true
         },
         {
-          "outcome": "D",
-          "opponent": "Siwelele",
-          "score": "1-1",
+          "outcome": "W",
+          "opponent": "Marumo Gallants",
+          "score": "3-2",
           "date": "2026-08-25",
           "home": false
         },
         {
-          "outcome": "D",
-          "opponent": "Milford",
-          "score": "0-0",
-          "date": "2026-09-05",
+          "outcome": "L",
+          "opponent": "Kruger United",
+          "score": "0-1",
+          "date": "2026-09-13",
           "home": true
         },
         {
-          "outcome": "D",
-          "opponent": "Mamelodi Sundowns",
-          "score": "1-1",
-          "date": "2026-09-12",
+          "outcome": "L",
+          "opponent": "Chippa United",
+          "score": "0-1",
+          "date": "2026-09-20",
           "home": true
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "TS Galaxy",
+        "opponent": "Orlando Pirates",
         "home": false,
-        "date": "2026-09-20",
-        "time": "17:30",
-        "venue": "Solomon Mahlangu Stadium, KwaMhlanga",
+        "date": "2026-10-18",
+        "time": "18:00",
+        "venue": "Orlando Amstel Arena, Soweto",
         "certain": true
       }
     },
@@ -1111,13 +1111,6 @@
       "form": [
         {
           "outcome": "L",
-          "opponent": "Stellenbosch",
-          "score": "1-3",
-          "date": "2026-08-14",
-          "home": false
-        },
-        {
-          "outcome": "L",
           "opponent": "Mamelodi Sundowns",
           "score": "0-2",
           "date": "2026-08-19",
@@ -1143,15 +1136,22 @@
           "score": "0-1",
           "date": "2026-09-12",
           "home": false
+        },
+        {
+          "outcome": "L",
+          "opponent": "Orlando Pirates",
+          "score": "0-2",
+          "date": "2026-09-20",
+          "home": true
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Orlando Pirates",
-        "home": true,
-        "date": "2026-09-20",
-        "time": "15:00",
-        "venue": "Royal Bafokeng Stadium, Rustenburg",
+        "opponent": "Sekhukhune United",
+        "home": false,
+        "date": "2026-10-17",
+        "time": "18:00",
+        "venue": "Peter Mokaba Stadium, Polokwane",
         "certain": true
       }
     }
@@ -1952,9 +1952,9 @@
       "round": 7,
       "date": "2026-09-20",
       "time": "15:00",
-      "venue": "Sugar Ray Xulu Stadium",
+      "venue": "Mbombela Stadium, Nelspruit",
       "postponed": false,
-      "officialId": null,
+      "officialId": "2674027",
       "note": null
     },
     {
@@ -1962,15 +1962,15 @@
       "away": "DCI",
       "homeTeam": "Milford",
       "awayTeam": "Durban City",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
+      "homeScore": 1,
+      "awayScore": 1,
+      "played": true,
       "round": 7,
       "date": "2026-09-20",
       "time": "15:00",
       "venue": "Sugar Ray Xulu Stadium, Clermont",
       "postponed": false,
-      "officialId": null,
+      "officialId": "2674031",
       "note": null
     },
     {
@@ -1978,9 +1978,9 @@
       "away": "OPR",
       "homeTeam": "Marumo Gallants",
       "awayTeam": "Orlando Pirates",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
+      "homeScore": 0,
+      "awayScore": 2,
+      "played": true,
       "round": null,
       "date": "2026-09-20",
       "time": "15:00",
@@ -1994,9 +1994,9 @@
       "away": "CHP",
       "homeTeam": "TS Galaxy",
       "awayTeam": "Chippa United",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
+      "homeScore": 0,
+      "awayScore": 1,
+      "played": true,
       "round": null,
       "date": "2026-09-20",
       "time": "17:30",
@@ -5006,10 +5006,18 @@
         "article": "Thandolwenkosi Ngwenya",
         "nationality": "ZIM",
         "club": "AmaZulu",
-        "value": 7
+        "value": 8
       },
       {
         "rank": 2,
+        "player": "Nqaba Xulu",
+        "article": "Nqaba Xulu",
+        "nationality": "RSA",
+        "club": "Richards Bay",
+        "value": 5
+      },
+      {
+        "rank": 3,
         "player": "Victor Letsoalo",
         "article": "Victor Letsoalo",
         "nationality": "RSA",
@@ -5017,7 +5025,7 @@
         "value": 4
       },
       {
-        "rank": 3,
+        "rank": 4,
         "player": "Wandile Duba",
         "article": "Wandile Duba",
         "nationality": "RSA",
@@ -5025,7 +5033,7 @@
         "value": 3
       },
       {
-        "rank": 3,
+        "rank": 4,
         "player": "Brayan Leon",
         "article": "Brayan Leon",
         "nationality": "COL",
@@ -5033,7 +5041,7 @@
         "value": 3
       },
       {
-        "rank": 3,
+        "rank": 4,
         "player": "Tshepang Moremi",
         "article": "Tshepang Moremi",
         "nationality": "RSA",
@@ -5041,7 +5049,7 @@
         "value": 3
       },
       {
-        "rank": 3,
+        "rank": 4,
         "player": "Khetukuthula Ndlovu",
         "article": "Khetukuthula Ndlovu",
         "nationality": "RSA",
@@ -5049,19 +5057,11 @@
         "value": 3
       },
       {
-        "rank": 3,
+        "rank": 4,
         "player": "Quwan Plaatjies",
         "article": "Quwan Plaatjies",
         "nationality": "RSA",
         "club": "Stellenbosch",
-        "value": 3
-      },
-      {
-        "rank": 3,
-        "player": "Nqaba Xulu",
-        "article": "Nqaba Xulu",
-        "nationality": "RSA",
-        "club": "Richards Bay",
         "value": 3
       },
       {
@@ -5091,7 +5091,23 @@
         "value": 3
       },
       {
-        "rank": 2,
+        "rank": 1,
+        "player": "Moses Mthembu",
+        "article": "Moses Mthembu",
+        "nationality": "RSA",
+        "club": "Richards Bay",
+        "value": 3
+      },
+      {
+        "rank": 1,
+        "player": "Nkosikhona Radebe",
+        "article": "Nkosikhona Radebe",
+        "nationality": "RSA",
+        "club": "AmaZulu",
+        "value": 3
+      },
+      {
+        "rank": 4,
         "player": "Oswin Appollis",
         "article": "Oswin Appollis",
         "nationality": "RSA",
@@ -5099,7 +5115,7 @@
         "value": 2
       },
       {
-        "rank": 2,
+        "rank": 4,
         "player": "Raoul Daniels",
         "article": "Raoul Daniels",
         "nationality": "RSA",
@@ -5107,7 +5123,7 @@
         "value": 2
       },
       {
-        "rank": 2,
+        "rank": 4,
         "player": "Tshepo Kakora",
         "article": "Tshepo Kakora",
         "nationality": "RSA",
@@ -5115,7 +5131,7 @@
         "value": 2
       },
       {
-        "rank": 2,
+        "rank": 4,
         "player": "Philani Khumalo",
         "article": "Philani Khumalo",
         "nationality": "RSA",
@@ -5123,7 +5139,7 @@
         "value": 2
       },
       {
-        "rank": 2,
+        "rank": 4,
         "player": "Lebohang Maboe",
         "article": "Lebohang Maboe",
         "nationality": "RSA",
@@ -5131,7 +5147,7 @@
         "value": 2
       },
       {
-        "rank": 2,
+        "rank": 4,
         "player": "Lehlohonolo Mojela",
         "article": "Lehlohonolo Mojela",
         "nationality": "RSA",
@@ -5139,27 +5155,11 @@
         "value": 2
       },
       {
-        "rank": 2,
-        "player": "Moses Mthembu",
-        "article": "Moses Mthembu",
-        "nationality": "RSA",
-        "club": "Richards Bay",
-        "value": 2
-      },
-      {
-        "rank": 2,
+        "rank": 4,
         "player": "Tebogo Potsane",
         "article": "Tebogo Potsane",
         "nationality": "RSA",
         "club": "Siwelele",
-        "value": 2
-      },
-      {
-        "rank": 2,
-        "player": "Nkosikhona Radebe",
-        "article": "Nkosikhona Radebe",
-        "nationality": "RSA",
-        "club": "AmaZulu",
         "value": 2
       }
     ]

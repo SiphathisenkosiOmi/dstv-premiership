@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T16:11:02.698Z",
+  "updatedAt": "2026-09-20T20:51:58.775Z",
   "snapshots": [
     {
       "date": "2026-09-11",
@@ -1218,7 +1218,7 @@
     },
     {
       "date": "2026-09-20",
-      "capturedAt": "2026-09-20T16:11:02.698Z",
+      "capturedAt": "2026-09-20T20:51:58.775Z",
       "season": "2026-27",
       "standings": [
         {
@@ -1286,12 +1286,12 @@
           "goalDifference": 0
         },
         {
-          "code": "TSG",
-          "team": "TS Galaxy",
+          "code": "CHP",
+          "team": "Chippa United",
           "position": 9,
           "played": 7,
-          "points": 7,
-          "goalDifference": -1
+          "points": 8,
+          "goalDifference": -2
         },
         {
           "code": "DCI",
@@ -1310,12 +1310,12 @@
           "goalDifference": -2
         },
         {
-          "code": "CHP",
-          "team": "Chippa United",
+          "code": "TSG",
+          "team": "TS Galaxy",
           "position": 12,
           "played": 7,
           "points": 6,
-          "goalDifference": -3
+          "goalDifference": -2
         },
         {
           "code": "KRU",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T05:01:18.680Z",
+  "generatedAt": "2026-09-21T12:53:58.624Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -213,7 +213,7 @@
         "home": true,
         "date": "2026-10-18",
         "time": "18:00",
-        "venue": "Orlando Amstel Arena, Soweto",
+        "venue": "Orlando Stadium, Soweto",
         "certain": true
       }
     },
@@ -883,7 +883,7 @@
         "home": false,
         "date": "2026-10-18",
         "time": "18:00",
-        "venue": "Orlando Amstel Arena, Soweto",
+        "venue": "Orlando Stadium, Soweto",
         "certain": true
       }
     },
@@ -2128,7 +2128,7 @@
       "round": null,
       "date": "2026-10-18",
       "time": "18:00",
-      "venue": "Orlando Amstel Arena, Soweto",
+      "venue": "Orlando Stadium, Soweto",
       "postponed": false,
       "officialId": null,
       "note": null
@@ -2176,7 +2176,7 @@
       "round": 9,
       "date": "2026-10-31",
       "time": "15:30",
-      "venue": "Orlando Amstel Arena, Soweto",
+      "venue": "Orlando Stadium, Soweto",
       "postponed": false,
       "officialId": null,
       "note": null
@@ -2448,7 +2448,7 @@
       "round": 11,
       "date": "2026-11-28",
       "time": "18:00",
-      "venue": "Orlando Amstel Arena, Soweto",
+      "venue": "Orlando Stadium, Soweto",
       "postponed": false,
       "officialId": null,
       "note": null
@@ -2544,7 +2544,7 @@
       "round": 12,
       "date": "2026-12-05",
       "time": "15:30",
-      "venue": "Orlando Amstel Arena, Soweto",
+      "venue": "Orlando Stadium, Soweto",
       "postponed": false,
       "officialId": null,
       "note": null
@@ -2832,7 +2832,7 @@
       "round": 14,
       "date": "2026-12-19",
       "time": "20:15",
-      "venue": "Orlando Amstel Arena, Soweto",
+      "venue": "Orlando Stadium, Soweto",
       "postponed": false,
       "officialId": null,
       "note": null
@@ -3168,7 +3168,7 @@
       "round": 17,
       "date": "2027-01-22",
       "time": "19:30",
-      "venue": "Orlando Amstel Arena, Soweto",
+      "venue": "Orlando Stadium, Soweto",
       "postponed": false,
       "officialId": null,
       "note": null
@@ -3456,7 +3456,7 @@
       "round": 19,
       "date": "2027-02-13",
       "time": "15:30",
-      "venue": "Orlando Amstel Arena, Soweto",
+      "venue": "Orlando Stadium, Soweto",
       "postponed": false,
       "officialId": null,
       "note": null
@@ -4000,7 +4000,7 @@
       "round": null,
       "date": "2027-03-17",
       "time": "19:30",
-      "venue": "Orlando Amstel Arena, Soweto",
+      "venue": "Orlando Stadium, Soweto",
       "postponed": false,
       "officialId": null,
       "note": null
@@ -4336,7 +4336,7 @@
       "round": 26,
       "date": "2027-04-24",
       "time": "15:00",
-      "venue": "Orlando Amstel Arena, Soweto",
+      "venue": "Orlando Stadium, Soweto",
       "postponed": false,
       "officialId": null,
       "note": null
@@ -4704,7 +4704,7 @@
       "round": 29,
       "date": "2027-05-15",
       "time": "15:00",
-      "venue": "Orlando Amstel Arena, Soweto",
+      "venue": "Orlando Stadium, Soweto",
       "postponed": false,
       "officialId": null,
       "note": null

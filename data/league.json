@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T12:53:58.624Z",
+  "generatedAt": "2026-09-21T20:00:05.377Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -1920,9 +1920,9 @@
       "round": 7,
       "date": "2026-09-19",
       "time": "17:30",
-      "venue": "Old Peter Mokaba Stadium, Polokwane",
+      "venue": "Old Peter Mokaba Stadium",
       "postponed": false,
-      "officialId": "2674029",
+      "officialId": null,
       "note": null
     },
     {

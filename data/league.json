@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T11:44:34.572Z",
+  "generatedAt": "2026-09-22T16:59:48.022Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -1904,9 +1904,9 @@
       "round": 7,
       "date": "2026-09-19",
       "time": "15:00",
-      "venue": "Princess Magogo Stadium, Durban",
+      "venue": "King Goodwill Zwelithini Stadium",
       "postponed": false,
-      "officialId": "2674026",
+      "officialId": null,
       "note": null
     },
     {

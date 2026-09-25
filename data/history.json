@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T21:33:36.695Z",
+  "updatedAt": "2026-09-25T05:01:53.631Z",
   "snapshots": [
     {
       "date": "2026-09-11",
@@ -1759,6 +1759,141 @@
     {
       "date": "2026-09-24",
       "capturedAt": "2026-09-24T21:33:36.695Z",
+      "season": "2026-27",
+      "standings": [
+        {
+          "code": "MSU",
+          "team": "Mamelodi Sundowns",
+          "position": 1,
+          "played": 8,
+          "points": 20,
+          "goalDifference": 12
+        },
+        {
+          "code": "OPR",
+          "team": "Orlando Pirates",
+          "position": 2,
+          "played": 7,
+          "points": 19,
+          "goalDifference": 15
+        },
+        {
+          "code": "AMA",
+          "team": "AmaZulu",
+          "position": 3,
+          "played": 7,
+          "points": 16,
+          "goalDifference": 3
+        },
+        {
+          "code": "KZC",
+          "team": "Kaizer Chiefs",
+          "position": 4,
+          "played": 7,
+          "points": 13,
+          "goalDifference": 5
+        },
+        {
+          "code": "MIL",
+          "team": "Milford",
+          "position": 5,
+          "played": 8,
+          "points": 12,
+          "goalDifference": 2
+        },
+        {
+          "code": "SEK",
+          "team": "Sekhukhune United",
+          "position": 6,
+          "played": 7,
+          "points": 11,
+          "goalDifference": 0
+        },
+        {
+          "code": "STL",
+          "team": "Stellenbosch",
+          "position": 7,
+          "played": 7,
+          "points": 9,
+          "goalDifference": 1
+        },
+        {
+          "code": "GDA",
+          "team": "Lamontville Golden Arrows",
+          "position": 8,
+          "played": 7,
+          "points": 8,
+          "goalDifference": 0
+        },
+        {
+          "code": "CHP",
+          "team": "Chippa United",
+          "position": 9,
+          "played": 7,
+          "points": 8,
+          "goalDifference": -2
+        },
+        {
+          "code": "DCI",
+          "team": "Durban City",
+          "position": 10,
+          "played": 7,
+          "points": 7,
+          "goalDifference": -1
+        },
+        {
+          "code": "PLK",
+          "team": "Polokwane City",
+          "position": 11,
+          "played": 7,
+          "points": 7,
+          "goalDifference": -2
+        },
+        {
+          "code": "TSG",
+          "team": "TS Galaxy",
+          "position": 12,
+          "played": 7,
+          "points": 6,
+          "goalDifference": -2
+        },
+        {
+          "code": "KRU",
+          "team": "Kruger United",
+          "position": 13,
+          "played": 7,
+          "points": 4,
+          "goalDifference": -9
+        },
+        {
+          "code": "RBA",
+          "team": "Richards Bay",
+          "position": 14,
+          "played": 7,
+          "points": 3,
+          "goalDifference": -7
+        },
+        {
+          "code": "SIW",
+          "team": "Siwelele",
+          "position": 15,
+          "played": 7,
+          "points": 3,
+          "goalDifference": -7
+        },
+        {
+          "code": "MGA",
+          "team": "Marumo Gallants",
+          "position": 16,
+          "played": 7,
+          "points": 2,
+          "goalDifference": -8
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "capturedAt": "2026-09-25T05:01:53.631Z",
       "season": "2026-27",
       "standings": [
         {

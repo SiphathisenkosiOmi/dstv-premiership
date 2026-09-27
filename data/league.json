@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T17:00:38.644Z",
+  "generatedAt": "2026-09-27T21:23:39.729Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -5065,19 +5065,19 @@
         "value": 3
       },
       {
-        "rank": 9,
+        "rank": 4,
+        "player": "Mvelo Zikakayo",
+        "article": "Mvelo Zikakayo",
+        "nationality": "RSA",
+        "club": "Milford",
+        "value": 3
+      },
+      {
+        "rank": 10,
         "player": "Oswin Appollis",
         "article": "Oswin Appollis",
         "nationality": "RSA",
         "club": "Orlando Pirates",
-        "value": 2
-      },
-      {
-        "rank": 9,
-        "player": "Junior Dion",
-        "article": "Junior Dion",
-        "nationality": "CHA",
-        "club": "Golden Arrows",
         "value": 2
       }
     ],
@@ -5156,10 +5156,10 @@
       },
       {
         "rank": 4,
-        "player": "Tebogo Potsane",
-        "article": "Tebogo Potsane",
+        "player": "Thapelo Mokobodi",
+        "article": "Thapelo Mokobodi",
         "nationality": "RSA",
-        "club": "Siwelele",
+        "club": "Orlando Pirates",
         "value": 2
       }
     ]

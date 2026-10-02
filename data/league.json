@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T09:50:28.460Z",
+  "generatedAt": "2026-10-02T17:53:38.036Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -2272,7 +2272,7 @@
       "round": 10,
       "date": "2026-11-04",
       "time": "19:30",
-      "venue": "Buffalo City Stadium, East London, South Africa",
+      "venue": "Nelson Mandela Bay Stadium",
       "postponed": false,
       "officialId": null,
       "note": null
@@ -2288,7 +2288,7 @@
       "round": 10,
       "date": "2026-11-04",
       "time": "19:30",
-      "venue": "FNB Stadium, Johannesburg",
+      "venue": "FNB Stadium",
       "postponed": false,
       "officialId": null,
       "note": null
@@ -2304,7 +2304,7 @@
       "round": 10,
       "date": "2026-11-04",
       "time": "19:30",
-      "venue": "King Goodwill Zwelithini Stadium, Durban",
+      "venue": "Sugar Ray Xulu Stadium",
       "postponed": false,
       "officialId": null,
       "note": null
@@ -2320,7 +2320,7 @@
       "round": 10,
       "date": "2026-11-04",
       "time": "19:30",
-      "venue": "Old Peter Mokaba Stadium, Polokwane",
+      "venue": "Old Peter Mokaba Stadium",
       "postponed": false,
       "officialId": null,
       "note": null

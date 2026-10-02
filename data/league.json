@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T17:53:38.036Z",
+  "generatedAt": "2026-10-02T22:17:14.708Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -211,9 +211,9 @@
       "nextFixture": {
         "opponent": "TS Galaxy",
         "home": true,
-        "date": "2026-10-18",
-        "time": "18:00",
-        "venue": "Orlando Stadium, Soweto",
+        "date": "2026-10-13",
+        "time": "19:30",
+        "venue": "Orlando Amstel Arena, Soweto",
         "certain": true
       }
     },
@@ -345,8 +345,8 @@
       "nextFixture": {
         "opponent": "Stellenbosch",
         "home": true,
-        "date": "2026-10-17",
-        "time": "15:30",
+        "date": "2026-10-13",
+        "time": "19:30",
         "venue": "FNB Stadium, Johannesburg",
         "certain": true
       }
@@ -546,8 +546,8 @@
       "nextFixture": {
         "opponent": "Kaizer Chiefs",
         "home": false,
-        "date": "2026-10-17",
-        "time": "15:30",
+        "date": "2026-10-13",
+        "time": "19:30",
         "venue": "FNB Stadium, Johannesburg",
         "certain": true
       }
@@ -881,9 +881,9 @@
       "nextFixture": {
         "opponent": "Orlando Pirates",
         "home": false,
-        "date": "2026-10-18",
-        "time": "18:00",
-        "venue": "Orlando Stadium, Soweto",
+        "date": "2026-10-13",
+        "time": "19:30",
+        "venue": "Orlando Amstel Arena, Soweto",
         "certain": true
       }
     },
@@ -2022,6 +2022,38 @@
       "note": null
     },
     {
+      "home": "KZC",
+      "away": "STL",
+      "homeTeam": "Kaizer Chiefs",
+      "awayTeam": "Stellenbosch",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "round": 8,
+      "date": "2026-10-13",
+      "time": "19:30",
+      "venue": "FNB Stadium, Johannesburg",
+      "postponed": false,
+      "officialId": null,
+      "note": null
+    },
+    {
+      "home": "OPR",
+      "away": "TSG",
+      "homeTeam": "Orlando Pirates",
+      "awayTeam": "TS Galaxy",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "round": null,
+      "date": "2026-10-13",
+      "time": "19:30",
+      "venue": "Orlando Amstel Arena, Soweto",
+      "postponed": false,
+      "officialId": null,
+      "note": null
+    },
+    {
       "home": "RBA",
       "away": "MSU",
       "homeTeam": "Richards Bay",
@@ -2049,22 +2081,6 @@
       "date": "2026-10-17",
       "time": "15:30",
       "venue": "Buffalo City Stadium, East London, South Africa",
-      "postponed": false,
-      "officialId": null,
-      "note": null
-    },
-    {
-      "home": "KZC",
-      "away": "STL",
-      "homeTeam": "Kaizer Chiefs",
-      "awayTeam": "Stellenbosch",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
-      "round": 8,
-      "date": "2026-10-17",
-      "time": "15:30",
-      "venue": "FNB Stadium, Johannesburg",
       "postponed": false,
       "officialId": null,
       "note": null
@@ -2113,22 +2129,6 @@
       "date": "2026-10-18",
       "time": "15:30",
       "venue": "Dr Molemela Stadium, Bloemfontein",
-      "postponed": false,
-      "officialId": null,
-      "note": null
-    },
-    {
-      "home": "OPR",
-      "away": "TSG",
-      "homeTeam": "Orlando Pirates",
-      "awayTeam": "TS Galaxy",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
-      "round": null,
-      "date": "2026-10-18",
-      "time": "18:00",
-      "venue": "Orlando Stadium, Soweto",
       "postponed": false,
       "officialId": null,
       "note": null

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T06:05:01.984Z",
+  "generatedAt": "2026-10-07T13:29:57.107Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -816,7 +816,7 @@
         "home": false,
         "date": "2026-10-18",
         "time": "15:30",
-        "venue": "Dr Molemela Stadium, Bloemfontein",
+        "venue": "Free State Stadium, Bloemfontein",
         "certain": true
       }
     },
@@ -1084,7 +1084,7 @@
         "home": true,
         "date": "2026-10-18",
         "time": "15:30",
-        "venue": "Dr Molemela Stadium, Bloemfontein",
+        "venue": "Free State Stadium, Bloemfontein",
         "certain": false
       }
     },
@@ -2128,7 +2128,7 @@
       "round": null,
       "date": "2026-10-18",
       "time": "15:30",
-      "venue": "Dr Molemela Stadium, Bloemfontein",
+      "venue": "Free State Stadium, Bloemfontein",
       "postponed": false,
       "officialId": null,
       "note": null

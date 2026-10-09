@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:14:36.164Z",
+  "generatedAt": "2026-10-09T10:38:45.141Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -55,7 +55,7 @@
     "teams": 16,
     "matchesKnown": 240,
     "matchesPlayed": 57,
-    "matchesWithKickoff": 235,
+    "matchesWithKickoff": 236,
     "upcomingWithoutKickoff": 1,
     "officialLogApplied": true,
     "scheduleIsPartial": false
@@ -440,13 +440,6 @@
       "officialName": "Sekhukhune United",
       "form": [
         {
-          "outcome": "L",
-          "opponent": "Kaizer Chiefs",
-          "score": "0-2",
-          "date": "2026-08-12",
-          "home": false
-        },
-        {
           "outcome": "W",
           "opponent": "Polokwane City",
           "score": "2-0",
@@ -459,6 +452,13 @@
           "score": "0-2",
           "date": "2026-08-25",
           "home": false
+        },
+        {
+          "outcome": "D",
+          "opponent": "TS Galaxy",
+          "score": "0-0",
+          "date": "2026-09-05",
+          "home": true
         },
         {
           "outcome": "D",
@@ -842,13 +842,6 @@
       "officialName": "TS Galaxy",
       "form": [
         {
-          "outcome": "L",
-          "opponent": "Mamelodi Sundowns",
-          "score": "2-3",
-          "date": "2026-08-11",
-          "home": true
-        },
-        {
           "outcome": "D",
           "opponent": "Lamontville Golden Arrows",
           "score": "0-0",
@@ -860,6 +853,13 @@
           "opponent": "Marumo Gallants",
           "score": "3-2",
           "date": "2026-08-25",
+          "home": false
+        },
+        {
+          "outcome": "D",
+          "opponent": "Sekhukhune United",
+          "score": "0-0",
+          "date": "2026-09-05",
           "home": false
         },
         {
@@ -1734,6 +1734,22 @@
       "note": null
     },
     {
+      "home": "SEK",
+      "away": "TSG",
+      "homeTeam": "Sekhukhune United",
+      "awayTeam": "TS Galaxy",
+      "homeScore": 0,
+      "awayScore": 0,
+      "played": true,
+      "round": null,
+      "date": "2026-09-05",
+      "time": null,
+      "venue": "Old Peter Mokaba Stadium, Polokwane",
+      "postponed": false,
+      "officialId": "2674014",
+      "note": null
+    },
+    {
       "home": "GDA",
       "away": "MSU",
       "homeTeam": "Lamontville Golden Arrows",
@@ -2182,6 +2198,22 @@
       "note": null
     },
     {
+      "home": "MIL",
+      "away": "SEK",
+      "homeTeam": "Milford",
+      "awayTeam": "Sekhukhune United",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "round": null,
+      "date": "2026-10-31",
+      "time": "15:30",
+      "venue": "Sugar Ray Xulu Stadium, Clermont",
+      "postponed": false,
+      "officialId": null,
+      "note": null
+    },
+    {
       "home": "AMA",
       "away": "GDA",
       "homeTeam": "AmaZulu",
@@ -2241,22 +2273,6 @@
       "date": "2026-11-01",
       "time": "15:30",
       "venue": "Loftus Versfeld Stadium, Pretoria",
-      "postponed": false,
-      "officialId": null,
-      "note": null
-    },
-    {
-      "home": "MIL",
-      "away": "SEK",
-      "homeTeam": "Milford",
-      "awayTeam": "Sekhukhune United",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
-      "round": null,
-      "date": "2026-11-01",
-      "time": "18:00",
-      "venue": "Richards Bay Stadium, Richards Bay",
       "postponed": false,
       "officialId": null,
       "note": null
@@ -4954,22 +4970,6 @@
       "away": "MIL",
       "homeTeam": "Polokwane City",
       "awayTeam": "Milford",
-      "homeScore": 0,
-      "awayScore": 0,
-      "played": true,
-      "round": null,
-      "date": null,
-      "time": null,
-      "venue": null,
-      "postponed": false,
-      "officialId": null,
-      "note": null
-    },
-    {
-      "home": "SEK",
-      "away": "TSG",
-      "homeTeam": "Sekhukhune United",
-      "awayTeam": "TS Galaxy",
       "homeScore": 0,
       "awayScore": 0,
       "played": true,

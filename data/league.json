@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T09:54:46.717Z",
+  "generatedAt": "2026-10-10T17:21:47.815Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -2061,7 +2061,7 @@
       "homeScore": null,
       "awayScore": null,
       "played": false,
-      "round": null,
+      "round": 8,
       "date": "2026-10-13",
       "time": "19:30",
       "venue": "Orlando Amstel Arena, Soweto",
@@ -2077,7 +2077,7 @@
       "homeScore": null,
       "awayScore": null,
       "played": false,
-      "round": null,
+      "round": 8,
       "date": "2026-10-13",
       "time": "19:30",
       "venue": "Princess Magogo Stadium, Durban",

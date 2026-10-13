@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T10:41:07.961Z",
+  "updatedAt": "2026-10-13T19:19:32.332Z",
   "snapshots": [
     {
       "date": "2026-09-11",
@@ -4323,39 +4323,39 @@
     },
     {
       "date": "2026-10-13",
-      "capturedAt": "2026-10-13T10:41:07.961Z",
+      "capturedAt": "2026-10-13T19:19:32.332Z",
       "season": "2026-27",
       "standings": [
         {
           "code": "MSU",
           "team": "Mamelodi Sundowns",
           "position": 1,
-          "played": 8,
-          "points": 20,
-          "goalDifference": 12
+          "played": 9,
+          "points": 23,
+          "goalDifference": 15
         },
         {
           "code": "OPR",
           "team": "Orlando Pirates",
           "position": 2,
-          "played": 7,
-          "points": 19,
-          "goalDifference": 15
+          "played": 8,
+          "points": 22,
+          "goalDifference": 18
         },
         {
           "code": "AMA",
           "team": "AmaZulu",
           "position": 3,
-          "played": 7,
-          "points": 16,
-          "goalDifference": 3
+          "played": 8,
+          "points": 19,
+          "goalDifference": 4
         },
         {
           "code": "KZC",
           "team": "Kaizer Chiefs",
           "position": 4,
-          "played": 7,
-          "points": 13,
+          "played": 8,
+          "points": 14,
           "goalDifference": 5
         },
         {
@@ -4378,8 +4378,8 @@
           "code": "STL",
           "team": "Stellenbosch",
           "position": 7,
-          "played": 7,
-          "points": 9,
+          "played": 8,
+          "points": 10,
           "goalDifference": 1
         },
         {
@@ -4399,18 +4399,18 @@
           "goalDifference": -2
         },
         {
-          "code": "DCI",
-          "team": "Durban City",
+          "code": "PLK",
+          "team": "Polokwane City",
           "position": 10,
           "played": 7,
           "points": 7,
-          "goalDifference": -1
+          "goalDifference": -2
         },
         {
-          "code": "PLK",
-          "team": "Polokwane City",
+          "code": "DCI",
+          "team": "Durban City",
           "position": 11,
-          "played": 7,
+          "played": 8,
           "points": 7,
           "goalDifference": -2
         },
@@ -4418,9 +4418,9 @@
           "code": "TSG",
           "team": "TS Galaxy",
           "position": 12,
-          "played": 7,
+          "played": 8,
           "points": 6,
-          "goalDifference": -2
+          "goalDifference": -5
         },
         {
           "code": "KRU",
@@ -4431,20 +4431,20 @@
           "goalDifference": -9
         },
         {
-          "code": "RBA",
-          "team": "Richards Bay",
+          "code": "SIW",
+          "team": "Siwelele",
           "position": 14,
           "played": 7,
           "points": 3,
           "goalDifference": -7
         },
         {
-          "code": "SIW",
-          "team": "Siwelele",
+          "code": "RBA",
+          "team": "Richards Bay",
           "position": 15,
-          "played": 7,
+          "played": 8,
           "points": 3,
-          "goalDifference": -7
+          "goalDifference": -10
         },
         {
           "code": "MGA",

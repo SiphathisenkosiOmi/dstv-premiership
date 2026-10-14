@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T19:19:32.332Z",
+  "generatedAt": "2026-10-14T00:19:40.226Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -32,7 +32,7 @@
       "name": "Wikipedia",
       "detail": "2026–27 South African Premiership",
       "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_South_African_Premiership",
-      "lastUpdated": "2026-09-20",
+      "lastUpdated": "2026-10-13",
       "available": true,
       "provides": [
         "full results grid",
@@ -54,7 +54,7 @@
   "coverage": {
     "teams": 16,
     "matchesKnown": 240,
-    "matchesPlayed": 57,
+    "matchesPlayed": 61,
     "matchesWithKickoff": 236,
     "upcomingWithoutKickoff": 1,
     "officialLogApplied": true,
@@ -106,13 +106,6 @@
       "form": [
         {
           "outcome": "W",
-          "opponent": "Marumo Gallants",
-          "score": "2-0",
-          "date": "2026-08-19",
-          "home": true
-        },
-        {
-          "outcome": "W",
           "opponent": "Milford",
           "score": "2-0",
           "date": "2026-09-02",
@@ -138,15 +131,22 @@
           "score": "1-1",
           "date": "2026-09-12",
           "home": false
+        },
+        {
+          "outcome": "W",
+          "opponent": "Richards Bay",
+          "score": "4-1",
+          "date": "2026-10-13",
+          "home": false
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Richards Bay",
-        "home": false,
-        "date": "2026-10-13",
-        "time": "19:30",
-        "venue": "King Goodwill Zwelithini Stadium",
+        "opponent": "Durban City",
+        "home": true,
+        "date": "2026-11-01",
+        "time": "15:30",
+        "venue": "Loftus Versfeld Stadium, Pretoria",
         "certain": true
       }
     },
@@ -171,13 +171,6 @@
       "badge": "https://imageorigin.supersport.com/psl/clublogos/Orlando%20Pirates.png",
       "officialName": "Orlando Pirates",
       "form": [
-        {
-          "outcome": "W",
-          "opponent": "Chippa United",
-          "score": "3-0",
-          "date": "2026-08-16",
-          "home": false
-        },
         {
           "outcome": "W",
           "opponent": "Sekhukhune United",
@@ -205,15 +198,22 @@
           "score": "2-0",
           "date": "2026-09-20",
           "home": false
+        },
+        {
+          "outcome": "W",
+          "opponent": "TS Galaxy",
+          "score": "3-0",
+          "date": "2026-10-13",
+          "home": true
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "TS Galaxy",
+        "opponent": "Kaizer Chiefs",
         "home": true,
-        "date": "2026-10-13",
-        "time": "19:30",
-        "venue": "Orlando Amstel Arena",
+        "date": "2026-10-31",
+        "time": "15:30",
+        "venue": "FNB Stadium, Johannesburg",
         "certain": true
       }
     },
@@ -238,13 +238,6 @@
       "badge": "https://imageorigin.supersport.com/psl/clublogos/AmaZulu%20FC.png",
       "officialName": "AmaZulu FC",
       "form": [
-        {
-          "outcome": "D",
-          "opponent": "Orlando Pirates",
-          "score": "1-1",
-          "date": "2026-08-12",
-          "home": true
-        },
         {
           "outcome": "W",
           "opponent": "Siwelele",
@@ -272,15 +265,22 @@
           "score": "1-0",
           "date": "2026-09-19",
           "home": false
+        },
+        {
+          "outcome": "W",
+          "opponent": "Durban City",
+          "score": "2-1",
+          "date": "2026-10-13",
+          "home": false
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Durban City",
-        "home": false,
-        "date": "2026-10-13",
-        "time": "19:30",
-        "venue": "Chatsworth Stadium",
+        "opponent": "Lamontville Golden Arrows",
+        "home": true,
+        "date": "2026-10-31",
+        "time": "18:00",
+        "venue": "Moses Mabhida Stadium, Durban",
         "certain": true
       }
     },
@@ -305,13 +305,6 @@
       "badge": "https://imageorigin.supersport.com/psl/clublogos/Kaizer%20Chiefs.png",
       "officialName": "Kaizer Chiefs",
       "form": [
-        {
-          "outcome": "W",
-          "opponent": "Sekhukhune United",
-          "score": "2-0",
-          "date": "2026-08-12",
-          "home": true
-        },
         {
           "outcome": "D",
           "opponent": "Mamelodi Sundowns",
@@ -339,15 +332,22 @@
           "score": "0-0",
           "date": "2026-09-20",
           "home": false
+        },
+        {
+          "outcome": "D",
+          "opponent": "Stellenbosch",
+          "score": "1-1",
+          "date": "2026-10-13",
+          "home": true
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Stellenbosch",
-        "home": true,
-        "date": "2026-10-13",
-        "time": "19:30",
-        "venue": "FNB Stadium",
+        "opponent": "Orlando Pirates",
+        "home": false,
+        "date": "2026-10-31",
+        "time": "15:30",
+        "venue": "FNB Stadium, Johannesburg",
         "certain": true
       }
     },
@@ -507,13 +507,6 @@
       "officialName": "Stellenbosch FC",
       "form": [
         {
-          "outcome": "W",
-          "opponent": "Marumo Gallants",
-          "score": "3-1",
-          "date": "2026-08-14",
-          "home": true
-        },
-        {
           "outcome": "L",
           "opponent": "Lamontville Golden Arrows",
           "score": "0-1",
@@ -540,15 +533,22 @@
           "score": "1-0",
           "date": "2026-09-19",
           "home": false
+        },
+        {
+          "outcome": "D",
+          "opponent": "Kaizer Chiefs",
+          "score": "1-1",
+          "date": "2026-10-13",
+          "home": false
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Kaizer Chiefs",
-        "home": false,
-        "date": "2026-10-13",
+        "opponent": "Chippa United",
+        "home": true,
+        "date": "2026-10-30",
         "time": "19:30",
-        "venue": "FNB Stadium",
+        "venue": "Danie Craven Stadium, Stellenbosch",
         "certain": true
       }
     },
@@ -775,13 +775,6 @@
       "officialName": "Durban City",
       "form": [
         {
-          "outcome": "D",
-          "opponent": "Richards Bay",
-          "score": "1-1",
-          "date": "2026-08-15",
-          "home": true
-        },
-        {
           "outcome": "W",
           "opponent": "Kruger United",
           "score": "2-0",
@@ -808,15 +801,22 @@
           "score": "1-1",
           "date": "2026-09-20",
           "home": false
+        },
+        {
+          "outcome": "L",
+          "opponent": "AmaZulu",
+          "score": "1-2",
+          "date": "2026-10-13",
+          "home": true
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "AmaZulu",
-        "home": true,
-        "date": "2026-10-13",
-        "time": "19:30",
-        "venue": "Chatsworth Stadium",
+        "opponent": "Mamelodi Sundowns",
+        "home": false,
+        "date": "2026-11-01",
+        "time": "15:30",
+        "venue": "Loftus Versfeld Stadium, Pretoria",
         "certain": true
       }
     },
@@ -841,13 +841,6 @@
       "badge": "https://imageorigin.supersport.com/psl/clublogos/TS%20Galaxy.png",
       "officialName": "TS Galaxy",
       "form": [
-        {
-          "outcome": "D",
-          "opponent": "Lamontville Golden Arrows",
-          "score": "0-0",
-          "date": "2026-08-16",
-          "home": true
-        },
         {
           "outcome": "W",
           "opponent": "Marumo Gallants",
@@ -875,15 +868,22 @@
           "score": "0-1",
           "date": "2026-09-20",
           "home": true
+        },
+        {
+          "outcome": "L",
+          "opponent": "Orlando Pirates",
+          "score": "0-3",
+          "date": "2026-10-13",
+          "home": false
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Orlando Pirates",
+        "opponent": "Polokwane City",
         "home": false,
-        "date": "2026-10-13",
-        "time": "19:30",
-        "venue": "Orlando Amstel Arena",
+        "date": "2026-10-31",
+        "time": "18:00",
+        "venue": "Old Peter Mokaba Stadium, Polokwane",
         "certain": true
       }
     },
@@ -1044,13 +1044,6 @@
       "form": [
         {
           "outcome": "D",
-          "opponent": "Durban City",
-          "score": "1-1",
-          "date": "2026-08-15",
-          "home": false
-        },
-        {
-          "outcome": "D",
           "opponent": "Kaizer Chiefs",
           "score": "2-2",
           "date": "2026-08-26",
@@ -1076,15 +1069,22 @@
           "score": "2-3",
           "date": "2026-09-19",
           "home": true
+        },
+        {
+          "outcome": "L",
+          "opponent": "Mamelodi Sundowns",
+          "score": "1-4",
+          "date": "2026-10-13",
+          "home": true
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Mamelodi Sundowns",
-        "home": true,
-        "date": "2026-10-13",
-        "time": "19:30",
-        "venue": "King Goodwill Zwelithini Stadium",
+        "opponent": "Kruger United",
+        "home": false,
+        "date": "2026-10-31",
+        "time": "20:15",
+        "venue": "Mbombela Stadium, Nelspruit",
         "certain": false
       }
     },
@@ -2026,15 +2026,15 @@
       "away": "AMA",
       "homeTeam": "Durban City",
       "awayTeam": "AmaZulu",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
+      "homeScore": 1,
+      "awayScore": 2,
+      "played": true,
       "round": 8,
       "date": "2026-10-13",
       "time": "19:30",
-      "venue": "Chatsworth Stadium",
+      "venue": "Chatsworth Stadium, Chatsworth",
       "postponed": false,
-      "officialId": null,
+      "officialId": "2674034",
       "note": null
     },
     {
@@ -2042,9 +2042,9 @@
       "away": "STL",
       "homeTeam": "Kaizer Chiefs",
       "awayTeam": "Stellenbosch",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
+      "homeScore": 1,
+      "awayScore": 1,
+      "played": true,
       "round": 8,
       "date": "2026-10-13",
       "time": "19:30",
@@ -2058,9 +2058,9 @@
       "away": "TSG",
       "homeTeam": "Orlando Pirates",
       "awayTeam": "TS Galaxy",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
+      "homeScore": 3,
+      "awayScore": 0,
+      "played": true,
       "round": 8,
       "date": "2026-10-13",
       "time": "19:30",
@@ -2074,9 +2074,9 @@
       "away": "MSU",
       "homeTeam": "Richards Bay",
       "awayTeam": "Mamelodi Sundowns",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
+      "homeScore": 1,
+      "awayScore": 4,
+      "played": true,
       "round": 8,
       "date": "2026-10-13",
       "time": "19:30",

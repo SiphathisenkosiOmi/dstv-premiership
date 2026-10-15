@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T11:35:20.629Z",
+  "generatedAt": "2026-10-15T17:04:51.758Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -144,9 +144,9 @@
       "nextFixture": {
         "opponent": "Durban City",
         "home": true,
-        "date": "2026-11-01",
-        "time": "15:30",
-        "venue": "Loftus Versfeld Stadium, Pretoria",
+        "date": "2026-10-31",
+        "time": "20:15",
+        "venue": "Royal Bafokeng Stadium, Rustenburg",
         "certain": true
       }
     },
@@ -814,9 +814,9 @@
       "nextFixture": {
         "opponent": "Mamelodi Sundowns",
         "home": false,
-        "date": "2026-11-01",
-        "time": "15:30",
-        "venue": "Loftus Versfeld Stadium, Pretoria",
+        "date": "2026-10-31",
+        "time": "20:15",
+        "venue": "Royal Bafokeng Stadium, Rustenburg",
         "certain": true
       }
     },
@@ -2270,9 +2270,9 @@
       "awayScore": null,
       "played": false,
       "round": null,
-      "date": "2026-11-01",
-      "time": "15:30",
-      "venue": "Loftus Versfeld Stadium, Pretoria",
+      "date": "2026-10-31",
+      "time": "20:15",
+      "venue": "Royal Bafokeng Stadium, Rustenburg",
       "postponed": false,
       "officialId": null,
       "note": null

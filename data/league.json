@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T21:26:51.934Z",
+  "generatedAt": "2026-10-16T04:36:47.832Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -44,7 +44,7 @@
       "name": "TheSportsDB",
       "detail": "Demo key — at most five matches per round",
       "url": "https://www.thesportsdb.com/league/4802",
-      "available": true,
+      "available": false,
       "provides": [
         "round numbers",
         "fallback kick-off times"
@@ -5025,7 +5025,15 @@
         "value": 4
       },
       {
-        "rank": 4,
+        "rank": 3,
+        "player": "Tshepang Moremi",
+        "article": "Tshepang Moremi",
+        "nationality": "RSA",
+        "club": "Orlando Pirates",
+        "value": 4
+      },
+      {
+        "rank": 5,
         "player": "Wandile Duba",
         "article": "Wandile Duba",
         "nationality": "RSA",
@@ -5033,7 +5041,7 @@
         "value": 3
       },
       {
-        "rank": 4,
+        "rank": 5,
         "player": "Brayan Leon",
         "article": "Brayan Leon",
         "nationality": "COL",
@@ -5041,15 +5049,15 @@
         "value": 3
       },
       {
-        "rank": 4,
-        "player": "Tshepang Moremi",
-        "article": "Tshepang Moremi",
+        "rank": 5,
+        "player": "Tashreeq Matthews",
+        "article": "Tashreeq Matthews",
         "nationality": "RSA",
-        "club": "Orlando Pirates",
+        "club": "Mamelodi Sundowns",
         "value": 3
       },
       {
-        "rank": 4,
+        "rank": 5,
         "player": "Khetukuthula Ndlovu",
         "article": "Khetukuthula Ndlovu",
         "nationality": "RSA",
@@ -5057,7 +5065,7 @@
         "value": 3
       },
       {
-        "rank": 4,
+        "rank": 5,
         "player": "Quwan Plaatjies",
         "article": "Quwan Plaatjies",
         "nationality": "RSA",
@@ -5065,20 +5073,12 @@
         "value": 3
       },
       {
-        "rank": 4,
-        "player": "Mvelo Zikakayo",
-        "article": "Mvelo Zikakayo",
-        "nationality": "RSA",
-        "club": "Milford",
-        "value": 3
-      },
-      {
-        "rank": 10,
-        "player": "Oswin Appollis",
-        "article": "Oswin Appollis",
+        "rank": 5,
+        "player": "Boitumelo Radiopane",
+        "article": "Boitumelo Radiopane",
         "nationality": "RSA",
         "club": "Orlando Pirates",
-        "value": 2
+        "value": 3
       }
     ],
     "assists": [
@@ -5088,10 +5088,18 @@
         "article": "Tashreeq Matthews",
         "nationality": "RSA",
         "club": "Mamelodi Sundowns",
+        "value": 4
+      },
+      {
+        "rank": 2,
+        "player": "Oswin Appollis",
+        "article": "Oswin Appollis",
+        "nationality": "RSA",
+        "club": "Orlando Pirates",
         "value": 3
       },
       {
-        "rank": 1,
+        "rank": 2,
         "player": "Moses Mthembu",
         "article": "Moses Mthembu",
         "nationality": "RSA",
@@ -5099,7 +5107,7 @@
         "value": 3
       },
       {
-        "rank": 1,
+        "rank": 2,
         "player": "Nkosikhona Radebe",
         "article": "Nkosikhona Radebe",
         "nationality": "RSA",
@@ -5107,15 +5115,7 @@
         "value": 3
       },
       {
-        "rank": 4,
-        "player": "Oswin Appollis",
-        "article": "Oswin Appollis",
-        "nationality": "RSA",
-        "club": "Orlando Pirates",
-        "value": 2
-      },
-      {
-        "rank": 4,
+        "rank": 5,
         "player": "Raoul Daniels",
         "article": "Raoul Daniels",
         "nationality": "RSA",
@@ -5123,7 +5123,7 @@
         "value": 2
       },
       {
-        "rank": 4,
+        "rank": 5,
         "player": "Tshepo Kakora",
         "article": "Tshepo Kakora",
         "nationality": "RSA",
@@ -5131,7 +5131,7 @@
         "value": 2
       },
       {
-        "rank": 4,
+        "rank": 5,
         "player": "Philani Khumalo",
         "article": "Philani Khumalo",
         "nationality": "RSA",
@@ -5139,7 +5139,7 @@
         "value": 2
       },
       {
-        "rank": 4,
+        "rank": 5,
         "player": "Lebohang Maboe",
         "article": "Lebohang Maboe",
         "nationality": "RSA",
@@ -5147,19 +5147,19 @@
         "value": 2
       },
       {
-        "rank": 4,
+        "rank": 5,
+        "player": "Terrence Mashego",
+        "article": "Terrence Mashego",
+        "nationality": "RSA",
+        "club": "Stellenbosch",
+        "value": 2
+      },
+      {
+        "rank": 5,
         "player": "Lehlohonolo Mojela",
         "article": "Lehlohonolo Mojela",
         "nationality": "RSA",
         "club": "Sekhukhune United",
-        "value": 2
-      },
-      {
-        "rank": 4,
-        "player": "Thapelo Mokobodi",
-        "article": "Thapelo Mokobodi",
-        "nationality": "RSA",
-        "club": "Orlando Pirates",
         "value": 2
       }
     ]

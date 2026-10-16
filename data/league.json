@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T16:42:48.456Z",
+  "generatedAt": "2026-10-16T21:14:22.429Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -44,7 +44,7 @@
       "name": "TheSportsDB",
       "detail": "Demo key — at most five matches per round",
       "url": "https://www.thesportsdb.com/league/4802",
-      "available": true,
+      "available": false,
       "provides": [
         "round numbers",
         "fallback kick-off times"

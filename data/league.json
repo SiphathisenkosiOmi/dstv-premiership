@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T15:39:15.907Z",
+  "generatedAt": "2026-10-17T20:39:21.224Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -54,7 +54,7 @@
   "coverage": {
     "teams": 16,
     "matchesKnown": 240,
-    "matchesPlayed": 61,
+    "matchesPlayed": 63,
     "matchesWithKickoff": 237,
     "upcomingWithoutKickoff": 1,
     "officialLogApplied": true,
@@ -306,13 +306,6 @@
       "officialName": "Milford FC",
       "form": [
         {
-          "outcome": "W",
-          "opponent": "Kruger United",
-          "score": "2-1",
-          "date": "2026-08-15",
-          "home": true
-        },
-        {
           "outcome": "L",
           "opponent": "Mamelodi Sundowns",
           "score": "0-2",
@@ -339,15 +332,22 @@
           "score": "1-1",
           "date": "2026-09-20",
           "home": true
+        },
+        {
+          "outcome": "W",
+          "opponent": "Lamontville Golden Arrows",
+          "score": "1-0",
+          "date": "2026-10-17",
+          "home": false
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Lamontville Golden Arrows",
-        "home": false,
-        "date": "2026-10-17",
+        "opponent": "Sekhukhune United",
+        "home": true,
+        "date": "2026-10-31",
         "time": "15:30",
-        "venue": "King Goodwill Zwelithini Stadium, Durban",
+        "venue": "Sugar Ray Xulu Stadium, Clermont",
         "certain": true
       }
     },
@@ -422,14 +422,14 @@
       "code": "SEK",
       "team": "Sekhukhune United",
       "article": "Sekhukhune United F.C.",
-      "played": 7,
-      "won": 3,
+      "played": 8,
+      "won": 4,
       "drawn": 2,
       "lost": 2,
-      "goalsFor": 7,
-      "goalsAgainst": 7,
-      "goalDifference": 0,
-      "points": 11,
+      "goalsFor": 9,
+      "goalsAgainst": 8,
+      "goalDifference": 1,
+      "points": 14,
       "pointsAdjustment": 0,
       "note": null,
       "position": 6,
@@ -574,13 +574,6 @@
       "officialName": "Golden Arrows",
       "form": [
         {
-          "outcome": "D",
-          "opponent": "TS Galaxy",
-          "score": "0-0",
-          "date": "2026-08-16",
-          "home": false
-        },
-        {
           "outcome": "W",
           "opponent": "Stellenbosch",
           "score": "1-0",
@@ -607,15 +600,22 @@
           "score": "0-0",
           "date": "2026-09-20",
           "home": true
+        },
+        {
+          "outcome": "L",
+          "opponent": "Milford",
+          "score": "0-1",
+          "date": "2026-10-17",
+          "home": true
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Milford",
-        "home": true,
-        "date": "2026-10-17",
-        "time": "15:30",
-        "venue": "King Goodwill Zwelithini Stadium, Durban",
+        "opponent": "AmaZulu",
+        "home": false,
+        "date": "2026-10-31",
+        "time": "18:00",
+        "venue": "Moses Mabhida Stadium, Durban",
         "certain": true
       }
     },
@@ -640,13 +640,6 @@
       "badge": "https://imageorigin.supersport.com/psl/clublogos/Chippa%20United.png",
       "officialName": "Chippa United",
       "form": [
-        {
-          "outcome": "L",
-          "opponent": "Orlando Pirates",
-          "score": "0-3",
-          "date": "2026-08-16",
-          "home": true
-        },
         {
           "outcome": "D",
           "opponent": "Siwelele",
@@ -674,15 +667,22 @@
           "score": "1-0",
           "date": "2026-09-20",
           "home": false
+        },
+        {
+          "outcome": "L",
+          "opponent": "Kruger United",
+          "score": "0-1",
+          "date": "2026-10-17",
+          "home": true
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Kruger United",
-        "home": true,
-        "date": "2026-10-17",
-        "time": "15:30",
-        "venue": "Buffalo City Stadium, East London, South Africa",
+        "opponent": "Stellenbosch",
+        "home": false,
+        "date": "2026-10-31",
+        "time": "18:00",
+        "venue": "Danie Craven Stadium, Stellenbosch",
         "certain": true
       }
     },
@@ -843,13 +843,6 @@
       "form": [
         {
           "outcome": "L",
-          "opponent": "Milford",
-          "score": "1-2",
-          "date": "2026-08-15",
-          "home": false
-        },
-        {
-          "outcome": "L",
           "opponent": "Durban City",
           "score": "0-2",
           "date": "2026-08-25",
@@ -875,15 +868,22 @@
           "score": "0-1",
           "date": "2026-09-19",
           "home": true
+        },
+        {
+          "outcome": "W",
+          "opponent": "Chippa United",
+          "score": "1-0",
+          "date": "2026-10-17",
+          "home": false
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Chippa United",
-        "home": false,
-        "date": "2026-10-17",
-        "time": "15:30",
-        "venue": "Buffalo City Stadium, East London, South Africa",
+        "opponent": "Richards Bay",
+        "home": true,
+        "date": "2026-10-31",
+        "time": "20:15",
+        "venue": "Mbombela Stadium, Nelspruit",
         "certain": true
       }
     },
@@ -1092,13 +1092,13 @@
       "code": "MGA",
       "team": "Marumo Gallants",
       "article": "Marumo Gallants F.C.",
-      "played": 7,
+      "played": 8,
       "won": 0,
       "drawn": 2,
-      "lost": 5,
-      "goalsFor": 5,
-      "goalsAgainst": 13,
-      "goalDifference": -8,
+      "lost": 6,
+      "goalsFor": 6,
+      "goalsAgainst": 15,
+      "goalDifference": -9,
       "points": 2,
       "pointsAdjustment": 0,
       "note": null,
@@ -2106,15 +2106,15 @@
       "away": "KRU",
       "homeTeam": "Chippa United",
       "awayTeam": "Kruger United",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
+      "homeScore": 0,
+      "awayScore": 1,
+      "played": true,
       "round": 8,
       "date": "2026-10-17",
       "time": "15:30",
       "venue": "Buffalo City Stadium, East London, South Africa",
       "postponed": false,
-      "officialId": null,
+      "officialId": "2674035",
       "note": null
     },
     {
@@ -2122,15 +2122,15 @@
       "away": "MIL",
       "homeTeam": "Lamontville Golden Arrows",
       "awayTeam": "Milford",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
+      "homeScore": 0,
+      "awayScore": 1,
+      "played": true,
       "round": 8,
       "date": "2026-10-17",
       "time": "15:30",
       "venue": "King Goodwill Zwelithini Stadium, Durban",
       "postponed": false,
-      "officialId": null,
+      "officialId": "2674036",
       "note": null
     },
     {

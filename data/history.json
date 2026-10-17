@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T15:39:15.907Z",
+  "updatedAt": "2026-10-17T20:39:21.224Z",
   "snapshots": [
     {
       "date": "2026-09-11",
@@ -4863,7 +4863,7 @@
     },
     {
       "date": "2026-10-17",
-      "capturedAt": "2026-10-17T15:39:15.907Z",
+      "capturedAt": "2026-10-17T20:39:21.224Z",
       "season": "2026-27",
       "standings": [
         {
@@ -4910,9 +4910,9 @@
           "code": "SEK",
           "team": "Sekhukhune United",
           "position": 6,
-          "played": 7,
-          "points": 11,
-          "goalDifference": 0
+          "played": 8,
+          "points": 14,
+          "goalDifference": 1
         },
         {
           "code": "STL",
@@ -4990,9 +4990,9 @@
           "code": "MGA",
           "team": "Marumo Gallants",
           "position": 16,
-          "played": 7,
+          "played": 8,
           "points": 2,
-          "goalDifference": -8
+          "goalDifference": -9
         }
       ]
     }

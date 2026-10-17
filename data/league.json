@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T04:33:01.884Z",
+  "generatedAt": "2026-10-17T10:49:43.014Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -55,7 +55,7 @@
     "teams": 16,
     "matchesKnown": 240,
     "matchesPlayed": 61,
-    "matchesWithKickoff": 236,
+    "matchesWithKickoff": 237,
     "upcomingWithoutKickoff": 1,
     "officialLogApplied": true,
     "scheduleIsPartial": false
@@ -307,17 +307,17 @@
       "form": [
         {
           "outcome": "D",
-          "opponent": "Mamelodi Sundowns",
-          "score": "1-1",
-          "date": "2026-08-15",
-          "home": true
-        },
-        {
-          "outcome": "D",
           "opponent": "Richards Bay",
           "score": "2-2",
           "date": "2026-08-26",
           "home": false
+        },
+        {
+          "outcome": "W",
+          "opponent": "Siwelele",
+          "score": "3-2",
+          "date": "2026-09-06",
+          "home": true
         },
         {
           "outcome": "D",
@@ -977,13 +977,6 @@
       "form": [
         {
           "outcome": "L",
-          "opponent": "Milford",
-          "score": "0-1",
-          "date": "2026-08-12",
-          "home": false
-        },
-        {
-          "outcome": "L",
           "opponent": "AmaZulu",
           "score": "0-2",
           "date": "2026-08-15",
@@ -995,6 +988,13 @@
           "score": "1-1",
           "date": "2026-08-25",
           "home": true
+        },
+        {
+          "outcome": "L",
+          "opponent": "Kaizer Chiefs",
+          "score": "2-3",
+          "date": "2026-09-06",
+          "home": false
         },
         {
           "outcome": "L",
@@ -1712,9 +1712,9 @@
       "round": 5,
       "date": "2026-09-04",
       "time": "19:30",
-      "venue": "King Goodwill Zwelithini Stadium",
+      "venue": "Princess Magogo Stadium, Durban",
       "postponed": false,
-      "officialId": null,
+      "officialId": "2674011",
       "note": null
     },
     {
@@ -1747,6 +1747,22 @@
       "venue": "Old Peter Mokaba Stadium, Polokwane",
       "postponed": false,
       "officialId": "2674014",
+      "note": null
+    },
+    {
+      "home": "KZC",
+      "away": "SIW",
+      "homeTeam": "Kaizer Chiefs",
+      "awayTeam": "Siwelele",
+      "homeScore": 3,
+      "awayScore": 2,
+      "played": true,
+      "round": null,
+      "date": "2026-09-06",
+      "time": null,
+      "venue": "Dobsonville Stadium, Soweto, Johannesburg",
+      "postponed": false,
+      "officialId": "2674015",
       "note": null
     },
     {
@@ -4929,22 +4945,6 @@
       "date": "2027-05-22",
       "time": "15:00",
       "venue": "Mbombela Stadium, Nelspruit",
-      "postponed": false,
-      "officialId": null,
-      "note": null
-    },
-    {
-      "home": "KZC",
-      "away": "SIW",
-      "homeTeam": "Kaizer Chiefs",
-      "awayTeam": "Siwelele",
-      "homeScore": 3,
-      "awayScore": 2,
-      "played": true,
-      "round": null,
-      "date": null,
-      "time": null,
-      "venue": null,
       "postponed": false,
       "officialId": null,
       "note": null

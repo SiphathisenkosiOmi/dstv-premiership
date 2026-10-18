@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T11:13:12.391Z",
+  "updatedAt": "2026-10-18T15:55:18.320Z",
   "snapshots": [
     {
       "date": "2026-09-11",
@@ -4998,7 +4998,7 @@
     },
     {
       "date": "2026-10-18",
-      "capturedAt": "2026-10-18T11:13:12.391Z",
+      "capturedAt": "2026-10-18T15:55:18.320Z",
       "season": "2026-27",
       "standings": [
         {
@@ -5074,20 +5074,20 @@
           "goalDifference": -3
         },
         {
-          "code": "PLK",
-          "team": "Polokwane City",
+          "code": "DCI",
+          "team": "Durban City",
           "position": 10,
-          "played": 7,
+          "played": 8,
           "points": 7,
           "goalDifference": -2
         },
         {
-          "code": "DCI",
-          "team": "Durban City",
+          "code": "PLK",
+          "team": "Polokwane City",
           "position": 11,
           "played": 8,
           "points": 7,
-          "goalDifference": -2
+          "goalDifference": -3
         },
         {
           "code": "KRU",
@@ -5109,9 +5109,9 @@
           "code": "SIW",
           "team": "Siwelele",
           "position": 14,
-          "played": 7,
-          "points": 3,
-          "goalDifference": -7
+          "played": 8,
+          "points": 6,
+          "goalDifference": -6
         },
         {
           "code": "RBA",

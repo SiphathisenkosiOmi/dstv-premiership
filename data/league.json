@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T11:13:12.391Z",
+  "generatedAt": "2026-10-18T15:55:18.320Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -687,73 +687,6 @@
       }
     },
     {
-      "code": "PLK",
-      "team": "Polokwane City",
-      "article": "Polokwane City F.C.",
-      "played": 7,
-      "won": 1,
-      "drawn": 4,
-      "lost": 2,
-      "goalsFor": 8,
-      "goalsAgainst": 10,
-      "goalDifference": -2,
-      "points": 7,
-      "pointsAdjustment": 0,
-      "note": null,
-      "position": 10,
-      "zone": null,
-      "zoneLabel": null,
-      "zoneColour": null,
-      "badge": "https://imageorigin.supersport.com/psl/clublogos/Polokwane%20City.png",
-      "officialName": "Polokwane City",
-      "form": [
-        {
-          "outcome": "D",
-          "opponent": "Stellenbosch",
-          "score": "3-3",
-          "date": "2026-08-11",
-          "home": true
-        },
-        {
-          "outcome": "L",
-          "opponent": "Sekhukhune United",
-          "score": "0-2",
-          "date": "2026-08-15",
-          "home": false
-        },
-        {
-          "outcome": "D",
-          "opponent": "Marumo Gallants",
-          "score": "2-2",
-          "date": "2026-09-04",
-          "home": false
-        },
-        {
-          "outcome": "D",
-          "opponent": "Kaizer Chiefs",
-          "score": "1-1",
-          "date": "2026-09-12",
-          "home": true
-        },
-        {
-          "outcome": "L",
-          "opponent": "AmaZulu",
-          "score": "0-1",
-          "date": "2026-09-19",
-          "home": true
-        }
-      ],
-      "formComplete": true,
-      "nextFixture": {
-        "opponent": "Siwelele",
-        "home": false,
-        "date": "2026-10-18",
-        "time": "15:30",
-        "venue": "Free State Stadium, Bloemfontein",
-        "certain": true
-      }
-    },
-    {
       "code": "DCI",
       "team": "Durban City",
       "article": "Durban City F.C. (2024)",
@@ -767,7 +700,7 @@
       "points": 7,
       "pointsAdjustment": 0,
       "note": null,
-      "position": 11,
+      "position": 10,
       "zone": null,
       "zoneLabel": null,
       "zoneColour": null,
@@ -817,6 +750,73 @@
         "date": "2026-10-31",
         "time": "20:15",
         "venue": "Royal Bafokeng Stadium, Rustenburg",
+        "certain": true
+      }
+    },
+    {
+      "code": "PLK",
+      "team": "Polokwane City",
+      "article": "Polokwane City F.C.",
+      "played": 8,
+      "won": 1,
+      "drawn": 4,
+      "lost": 3,
+      "goalsFor": 8,
+      "goalsAgainst": 11,
+      "goalDifference": -3,
+      "points": 7,
+      "pointsAdjustment": 0,
+      "note": null,
+      "position": 11,
+      "zone": null,
+      "zoneLabel": null,
+      "zoneColour": null,
+      "badge": "https://imageorigin.supersport.com/psl/clublogos/Polokwane%20City.png",
+      "officialName": "Polokwane City",
+      "form": [
+        {
+          "outcome": "D",
+          "opponent": "Stellenbosch",
+          "score": "3-3",
+          "date": "2026-08-11",
+          "home": true
+        },
+        {
+          "outcome": "L",
+          "opponent": "Sekhukhune United",
+          "score": "0-2",
+          "date": "2026-08-15",
+          "home": false
+        },
+        {
+          "outcome": "D",
+          "opponent": "Marumo Gallants",
+          "score": "2-2",
+          "date": "2026-09-04",
+          "home": false
+        },
+        {
+          "outcome": "D",
+          "opponent": "Kaizer Chiefs",
+          "score": "1-1",
+          "date": "2026-09-12",
+          "home": true
+        },
+        {
+          "outcome": "L",
+          "opponent": "AmaZulu",
+          "score": "0-1",
+          "date": "2026-09-19",
+          "home": true
+        }
+      ],
+      "formComplete": true,
+      "nextFixture": {
+        "opponent": "Siwelele",
+        "home": false,
+        "date": "2026-10-18",
+        "time": "15:30",
+        "venue": "Free State Stadium, Bloemfontein",
         "certain": true
       }
     },
@@ -958,14 +958,14 @@
       "code": "SIW",
       "team": "Siwelele",
       "article": "Siwelele F.C.",
-      "played": 7,
-      "won": 0,
+      "played": 8,
+      "won": 1,
       "drawn": 3,
       "lost": 4,
-      "goalsFor": 6,
+      "goalsFor": 7,
       "goalsAgainst": 13,
-      "goalDifference": -7,
-      "points": 3,
+      "goalDifference": -6,
+      "points": 6,
       "pointsAdjustment": 0,
       "note": null,
       "position": 14,

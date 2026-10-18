@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T23:09:23.797Z",
+  "generatedAt": "2026-10-18T04:38:52.586Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -32,7 +32,7 @@
       "name": "Wikipedia",
       "detail": "2026–27 South African Premiership",
       "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_South_African_Premiership",
-      "lastUpdated": "2026-10-13",
+      "lastUpdated": "2026-10-17",
       "available": true,
       "provides": [
         "full results grid",
@@ -54,7 +54,7 @@
   "coverage": {
     "teams": 16,
     "matchesKnown": 240,
-    "matchesPlayed": 63,
+    "matchesPlayed": 64,
     "matchesWithKickoff": 237,
     "upcomingWithoutKickoff": 1,
     "officialLogApplied": true,
@@ -440,13 +440,6 @@
       "officialName": "Sekhukhune United",
       "form": [
         {
-          "outcome": "W",
-          "opponent": "Polokwane City",
-          "score": "2-0",
-          "date": "2026-08-15",
-          "home": true
-        },
-        {
           "outcome": "L",
           "opponent": "Orlando Pirates",
           "score": "0-2",
@@ -473,15 +466,22 @@
           "score": "3-2",
           "date": "2026-09-19",
           "home": false
+        },
+        {
+          "outcome": "W",
+          "opponent": "Marumo Gallants",
+          "score": "2-1",
+          "date": "2026-10-17",
+          "home": true
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Marumo Gallants",
-        "home": true,
-        "date": "2026-10-17",
-        "time": "18:00",
-        "venue": "Peter Mokaba Stadium, Polokwane",
+        "opponent": "Milford",
+        "home": false,
+        "date": "2026-10-31",
+        "time": "15:30",
+        "venue": "Sugar Ray Xulu Stadium, Clermont",
         "certain": true
       }
     },
@@ -1111,13 +1111,6 @@
       "form": [
         {
           "outcome": "L",
-          "opponent": "Mamelodi Sundowns",
-          "score": "0-2",
-          "date": "2026-08-19",
-          "home": false
-        },
-        {
-          "outcome": "L",
           "opponent": "TS Galaxy",
           "score": "2-3",
           "date": "2026-08-25",
@@ -1143,15 +1136,22 @@
           "score": "0-2",
           "date": "2026-09-20",
           "home": true
+        },
+        {
+          "outcome": "L",
+          "opponent": "Sekhukhune United",
+          "score": "1-2",
+          "date": "2026-10-17",
+          "home": false
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Sekhukhune United",
-        "home": false,
-        "date": "2026-10-17",
-        "time": "18:00",
-        "venue": "Peter Mokaba Stadium, Polokwane",
+        "opponent": "Siwelele",
+        "home": true,
+        "date": "2026-10-30",
+        "time": "19:30",
+        "venue": "Royal Bafokeng Stadium, Rustenburg",
         "certain": true
       }
     }
@@ -2138,9 +2138,9 @@
       "away": "MGA",
       "homeTeam": "Sekhukhune United",
       "awayTeam": "Marumo Gallants",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
+      "homeScore": 2,
+      "awayScore": 1,
+      "played": true,
       "round": 8,
       "date": "2026-10-17",
       "time": "18:00",
@@ -5132,6 +5132,14 @@
       },
       {
         "rank": 5,
+        "player": "D'Angelo Kazeem",
+        "article": "D'Angelo Kazeem",
+        "nationality": "RSA",
+        "club": "Sekhukhune United",
+        "value": 2
+      },
+      {
+        "rank": 5,
         "player": "Philani Khumalo",
         "article": "Philani Khumalo",
         "nationality": "RSA",
@@ -5152,14 +5160,6 @@
         "article": "Terrence Mashego",
         "nationality": "RSA",
         "club": "Stellenbosch",
-        "value": 2
-      },
-      {
-        "rank": 5,
-        "player": "Lehlohonolo Mojela",
-        "article": "Lehlohonolo Mojela",
-        "nationality": "RSA",
-        "club": "Sekhukhune United",
         "value": 2
       }
     ]

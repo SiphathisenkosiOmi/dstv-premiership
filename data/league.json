@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T13:24:37.145Z",
+  "generatedAt": "2026-10-19T20:36:27.165Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -280,7 +280,7 @@
         "home": true,
         "date": "2026-10-31",
         "time": "18:00",
-        "venue": "Moses Mabhida Stadium, Durban",
+        "venue": "Princess Magogo Stadium, Durban",
         "certain": true
       }
     },
@@ -615,7 +615,7 @@
         "home": false,
         "date": "2026-10-31",
         "time": "18:00",
-        "venue": "Moses Mabhida Stadium, Durban",
+        "venue": "Princess Magogo Stadium, Durban",
         "certain": true
       }
     },
@@ -2224,7 +2224,7 @@
       "round": 9,
       "date": "2026-10-31",
       "time": "18:00",
-      "venue": "Moses Mabhida Stadium, Durban",
+      "venue": "Princess Magogo Stadium, Durban",
       "postponed": false,
       "officialId": null,
       "note": null

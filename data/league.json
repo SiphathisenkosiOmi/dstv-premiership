@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T04:56:44.641Z",
+  "generatedAt": "2026-10-23T17:12:18.498Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -2064,9 +2064,9 @@
       "round": 8,
       "date": "2026-10-13",
       "time": "19:30",
-      "venue": "FNB Stadium",
+      "venue": "FNB Stadium, Johannesburg",
       "postponed": false,
-      "officialId": null,
+      "officialId": "2674037",
       "note": null
     },
     {
@@ -2114,7 +2114,7 @@
       "time": "15:30",
       "venue": "Buffalo City Stadium, East London, South Africa",
       "postponed": false,
-      "officialId": null,
+      "officialId": "2674035",
       "note": null
     },
     {

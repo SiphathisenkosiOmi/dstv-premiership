@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T01:00:16.701Z",
+  "generatedAt": "2026-10-29T10:03:09.382Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -2446,7 +2446,7 @@
       "awayScore": null,
       "played": false,
       "round": 11,
-      "date": "2026-11-27",
+      "date": "2026-11-24",
       "time": "19:30",
       "venue": "Chatsworth Stadium, Chatsworth",
       "postponed": false,
@@ -3222,22 +3222,6 @@
       "note": null
     },
     {
-      "home": "OPR",
-      "away": "KRU",
-      "homeTeam": "Orlando Pirates",
-      "awayTeam": "Kruger United",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
-      "round": 17,
-      "date": "2027-01-22",
-      "time": "19:30",
-      "venue": "Orlando Amstel Arena, Soweto",
-      "postponed": false,
-      "officialId": null,
-      "note": null
-    },
-    {
       "home": "AMA",
       "away": "STL",
       "homeTeam": "AmaZulu",
@@ -3329,6 +3313,22 @@
       "date": "2027-01-24",
       "time": "15:30",
       "venue": "Mbombela Stadium, Nelspruit",
+      "postponed": false,
+      "officialId": null,
+      "note": null
+    },
+    {
+      "home": "OPR",
+      "away": "KRU",
+      "homeTeam": "Orlando Pirates",
+      "awayTeam": "Kruger United",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "round": 17,
+      "date": "2027-02-03",
+      "time": "19:30",
+      "venue": "Orlando Amstel Arena, Soweto",
       "postponed": false,
       "officialId": null,
       "note": null

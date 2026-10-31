@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T12:39:11.555Z",
+  "updatedAt": "2026-10-31T19:19:44.820Z",
   "snapshots": [
     {
       "date": "2026-09-11",
@@ -6753,111 +6753,111 @@
     },
     {
       "date": "2026-10-31",
-      "capturedAt": "2026-10-31T12:39:11.555Z",
+      "capturedAt": "2026-10-31T19:19:44.820Z",
       "season": "2026-27",
       "standings": [
         {
           "code": "MSU",
           "team": "Mamelodi Sundowns",
           "position": 1,
-          "played": 9,
-          "points": 23,
-          "goalDifference": 15
+          "played": 10,
+          "points": 26,
+          "goalDifference": 16
         },
         {
           "code": "OPR",
           "team": "Orlando Pirates",
           "position": 2,
-          "played": 8,
-          "points": 22,
-          "goalDifference": 18
+          "played": 9,
+          "points": 25,
+          "goalDifference": 19
         },
         {
           "code": "AMA",
           "team": "AmaZulu",
           "position": 3,
-          "played": 8,
-          "points": 19,
-          "goalDifference": 4
+          "played": 9,
+          "points": 22,
+          "goalDifference": 5
         },
         {
           "code": "MIL",
           "team": "Milford",
           "position": 4,
-          "played": 9,
-          "points": 15,
-          "goalDifference": 3
+          "played": 10,
+          "points": 18,
+          "goalDifference": 4
         },
         {
           "code": "KZC",
           "team": "Kaizer Chiefs",
           "position": 5,
-          "played": 8,
+          "played": 9,
           "points": 14,
-          "goalDifference": 5
+          "goalDifference": 4
         },
         {
           "code": "SEK",
           "team": "Sekhukhune United",
           "position": 6,
-          "played": 8,
+          "played": 9,
           "points": 14,
-          "goalDifference": 1
-        },
-        {
-          "code": "STL",
-          "team": "Stellenbosch",
-          "position": 7,
-          "played": 8,
-          "points": 10,
-          "goalDifference": 1
-        },
-        {
-          "code": "GDA",
-          "team": "Lamontville Golden Arrows",
-          "position": 8,
-          "played": 8,
-          "points": 8,
-          "goalDifference": -1
+          "goalDifference": 0
         },
         {
           "code": "CHP",
           "team": "Chippa United",
-          "position": 9,
-          "played": 8,
-          "points": 8,
-          "goalDifference": -3
+          "position": 7,
+          "played": 9,
+          "points": 11,
+          "goalDifference": -1
         },
         {
-          "code": "DCI",
-          "team": "Durban City",
+          "code": "STL",
+          "team": "Stellenbosch",
+          "position": 8,
+          "played": 9,
+          "points": 10,
+          "goalDifference": -1
+        },
+        {
+          "code": "KRU",
+          "team": "Kruger United",
+          "position": 9,
+          "played": 9,
+          "points": 10,
+          "goalDifference": -7
+        },
+        {
+          "code": "GDA",
+          "team": "Lamontville Golden Arrows",
           "position": 10,
-          "played": 8,
-          "points": 7,
+          "played": 9,
+          "points": 8,
           "goalDifference": -2
         },
         {
           "code": "PLK",
           "team": "Polokwane City",
           "position": 11,
-          "played": 8,
-          "points": 7,
+          "played": 9,
+          "points": 8,
           "goalDifference": -3
         },
         {
-          "code": "KRU",
-          "team": "Kruger United",
+          "code": "DCI",
+          "team": "Durban City",
           "position": 12,
-          "played": 8,
+          "played": 9,
           "points": 7,
-          "goalDifference": -8
+          "goalDifference": -3
         },
         {
           "code": "TSG",
           "team": "TS Galaxy",
           "position": 13,
-          "played": 8,
-          "points": 6,
+          "played": 9,
+          "points": 7,
           "goalDifference": -5
         },
         {
@@ -6880,9 +6880,9 @@
           "code": "RBA",
           "team": "Richards Bay",
           "position": 16,
-          "played": 8,
+          "played": 9,
           "points": 3,
-          "goalDifference": -10
+          "goalDifference": -11
         }
       ]
     }

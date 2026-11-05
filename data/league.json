@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T23:42:57.318Z",
+  "generatedAt": "2026-11-05T06:53:39.738Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -209,11 +209,11 @@
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Siwelele",
-        "home": false,
-        "date": "2026-11-04",
-        "time": "19:30",
-        "venue": "Free State Stadium, Bloemfontein",
+        "opponent": "Lamontville Golden Arrows",
+        "home": true,
+        "date": "2026-11-28",
+        "time": "18:00",
+        "venue": "Orlando Amstel Arena, Soweto",
         "certain": true
       }
     },
@@ -276,11 +276,11 @@
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Kaizer Chiefs",
-        "home": false,
-        "date": "2026-11-04",
-        "time": "19:30",
-        "venue": "FNB Stadium",
+        "opponent": "Milford",
+        "home": true,
+        "date": "2026-11-28",
+        "time": "15:30",
+        "venue": "Moses Mabhida Stadium, Durban",
         "certain": true
       }
     },
@@ -410,11 +410,11 @@
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "AmaZulu",
-        "home": true,
-        "date": "2026-11-04",
-        "time": "19:30",
-        "venue": "FNB Stadium",
+        "opponent": "Chippa United",
+        "home": false,
+        "date": "2026-11-28",
+        "time": "15:30",
+        "venue": "Nelson Mandela Bay Stadium, Gqeberha",
         "certain": true
       }
     },
@@ -477,11 +477,11 @@
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Chippa United",
-        "home": false,
-        "date": "2026-11-04",
-        "time": "19:30",
-        "venue": "Nelson Mandela Bay Stadium",
+        "opponent": "Siwelele",
+        "home": true,
+        "date": "2026-11-29",
+        "time": "18:00",
+        "venue": "Peter Mokaba Stadium, Polokwane",
         "certain": true
       }
     },
@@ -544,11 +544,11 @@
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Sekhukhune United",
+        "opponent": "Kaizer Chiefs",
         "home": true,
-        "date": "2026-11-04",
-        "time": "19:30",
-        "venue": "Nelson Mandela Bay Stadium",
+        "date": "2026-11-28",
+        "time": "15:30",
+        "venue": "Nelson Mandela Bay Stadium, Gqeberha",
         "certain": true
       }
     },
@@ -611,11 +611,11 @@
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Richards Bay",
-        "home": false,
-        "date": "2026-11-04",
+        "opponent": "TS Galaxy",
+        "home": true,
+        "date": "2026-11-27",
         "time": "19:30",
-        "venue": "Richards Bay Stadium, Richards Bay",
+        "venue": "Danie Craven Stadium, Stellenbosch",
         "certain": true
       }
     },
@@ -678,11 +678,11 @@
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Polokwane City",
-        "home": false,
-        "date": "2026-11-04",
-        "time": "19:30",
-        "venue": "Old Peter Mokaba Stadium",
+        "opponent": "Mamelodi Sundowns",
+        "home": true,
+        "date": "2026-11-28",
+        "time": "20:15",
+        "venue": "Mbombela Stadium, Nelspruit",
         "certain": true
       }
     },
@@ -745,11 +745,11 @@
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Marumo Gallants",
-        "home": true,
-        "date": "2026-11-04",
-        "time": "19:30",
-        "venue": "Sugar Ray Xulu Stadium",
+        "opponent": "Orlando Pirates",
+        "home": false,
+        "date": "2026-11-28",
+        "time": "18:00",
+        "venue": "Orlando Amstel Arena, Soweto",
         "certain": true
       }
     },
@@ -812,11 +812,11 @@
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Kruger United",
-        "home": true,
-        "date": "2026-11-04",
+        "opponent": "Durban City",
+        "home": false,
+        "date": "2026-11-24",
         "time": "19:30",
-        "venue": "Old Peter Mokaba Stadium",
+        "venue": "Chatsworth Stadium, Chatsworth",
         "certain": true
       }
     },
@@ -879,11 +879,11 @@
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Durban City",
-        "home": true,
-        "date": "2026-11-04",
+        "opponent": "Stellenbosch",
+        "home": false,
+        "date": "2026-11-27",
         "time": "19:30",
-        "venue": "Mbombela Stadium, Nelspruit",
+        "venue": "Danie Craven Stadium, Stellenbosch",
         "certain": true
       }
     },
@@ -946,11 +946,11 @@
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "TS Galaxy",
-        "home": false,
-        "date": "2026-11-04",
+        "opponent": "Polokwane City",
+        "home": true,
+        "date": "2026-11-24",
         "time": "19:30",
-        "venue": "Mbombela Stadium, Nelspruit",
+        "venue": "Chatsworth Stadium, Chatsworth",
         "certain": true
       }
     },
@@ -1013,11 +1013,11 @@
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Orlando Pirates",
-        "home": true,
-        "date": "2026-11-04",
-        "time": "19:30",
-        "venue": "Free State Stadium, Bloemfontein",
+        "opponent": "Sekhukhune United",
+        "home": false,
+        "date": "2026-11-29",
+        "time": "18:00",
+        "venue": "Peter Mokaba Stadium, Polokwane",
         "certain": true
       }
     },
@@ -1080,11 +1080,11 @@
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Lamontville Golden Arrows",
-        "home": false,
-        "date": "2026-11-04",
-        "time": "19:30",
-        "venue": "Sugar Ray Xulu Stadium",
+        "opponent": "Richards Bay",
+        "home": true,
+        "date": "2026-11-29",
+        "time": "15:30",
+        "venue": "Royal Bafokeng Stadium, Rustenburg",
         "certain": true
       }
     },
@@ -1147,11 +1147,11 @@
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Stellenbosch",
-        "home": true,
-        "date": "2026-11-04",
-        "time": "19:30",
-        "venue": "Richards Bay Stadium, Richards Bay",
+        "opponent": "Marumo Gallants",
+        "home": false,
+        "date": "2026-11-29",
+        "time": "15:30",
+        "venue": "Royal Bafokeng Stadium, Rustenburg",
         "certain": true
       }
     }

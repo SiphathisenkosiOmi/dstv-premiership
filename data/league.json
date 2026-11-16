@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T06:36:47.475Z",
+  "generatedAt": "2026-11-16T19:38:36.552Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -211,8 +211,8 @@
       "nextFixture": {
         "opponent": "Lamontville Golden Arrows",
         "home": true,
-        "date": "2026-11-28",
-        "time": "18:00",
+        "date": "2026-11-24",
+        "time": "19:30",
         "venue": "Orlando Amstel Arena, Soweto",
         "certain": true
       }
@@ -747,8 +747,8 @@
       "nextFixture": {
         "opponent": "Orlando Pirates",
         "home": false,
-        "date": "2026-11-28",
-        "time": "18:00",
+        "date": "2026-11-24",
+        "time": "19:30",
         "venue": "Orlando Amstel Arena, Soweto",
         "certain": true
       }
@@ -2454,6 +2454,22 @@
       "note": null
     },
     {
+      "home": "OPR",
+      "away": "GDA",
+      "homeTeam": "Orlando Pirates",
+      "awayTeam": "Lamontville Golden Arrows",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "round": 11,
+      "date": "2026-11-24",
+      "time": "19:30",
+      "venue": "Orlando Amstel Arena, Soweto",
+      "postponed": false,
+      "officialId": null,
+      "note": null
+    },
+    {
       "home": "STL",
       "away": "TSG",
       "homeTeam": "Stellenbosch",
@@ -2497,22 +2513,6 @@
       "date": "2026-11-28",
       "time": "15:30",
       "venue": "Nelson Mandela Bay Stadium, Gqeberha",
-      "postponed": false,
-      "officialId": null,
-      "note": null
-    },
-    {
-      "home": "OPR",
-      "away": "GDA",
-      "homeTeam": "Orlando Pirates",
-      "awayTeam": "Lamontville Golden Arrows",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
-      "round": 11,
-      "date": "2026-11-28",
-      "time": "18:00",
-      "venue": "Orlando Amstel Arena, Soweto",
       "postponed": false,
       "officialId": null,
       "note": null
@@ -2598,22 +2598,6 @@
       "note": null
     },
     {
-      "home": "OPR",
-      "away": "STL",
-      "homeTeam": "Orlando Pirates",
-      "awayTeam": "Stellenbosch",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
-      "round": 12,
-      "date": "2026-12-05",
-      "time": "15:30",
-      "venue": "Orlando Amstel Arena, Soweto",
-      "postponed": false,
-      "officialId": null,
-      "note": null
-    },
-    {
       "home": "MSU",
       "away": "PLK",
       "homeTeam": "Mamelodi Sundowns",
@@ -2689,6 +2673,22 @@
       "date": "2026-12-06",
       "time": "15:30",
       "venue": "Mbombela Stadium, Nelspruit",
+      "postponed": false,
+      "officialId": null,
+      "note": null
+    },
+    {
+      "home": "OPR",
+      "away": "STL",
+      "homeTeam": "Orlando Pirates",
+      "awayTeam": "Stellenbosch",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "round": 12,
+      "date": "2026-12-08",
+      "time": "19:30",
+      "venue": "Orlando Amstel Arena, Soweto",
       "postponed": false,
       "officialId": null,
       "note": null
@@ -2886,22 +2886,6 @@
       "note": null
     },
     {
-      "home": "OPR",
-      "away": "PLK",
-      "homeTeam": "Orlando Pirates",
-      "awayTeam": "Polokwane City",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
-      "round": 14,
-      "date": "2026-12-19",
-      "time": "20:15",
-      "venue": "Orlando Amstel Arena, Soweto",
-      "postponed": false,
-      "officialId": null,
-      "note": null
-    },
-    {
       "home": "RBA",
       "away": "SIW",
       "homeTeam": "Richards Bay",
@@ -2950,6 +2934,38 @@
       "note": null
     },
     {
+      "home": "OPR",
+      "away": "PLK",
+      "homeTeam": "Orlando Pirates",
+      "awayTeam": "Polokwane City",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "round": 14,
+      "date": "2026-12-22",
+      "time": "19:30",
+      "venue": "Orlando Amstel Arena, Soweto",
+      "postponed": false,
+      "officialId": null,
+      "note": null
+    },
+    {
+      "home": "MSU",
+      "away": "OPR",
+      "homeTeam": "Mamelodi Sundowns",
+      "awayTeam": "Orlando Pirates",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "round": 15,
+      "date": "2027-01-05",
+      "time": "19:30",
+      "venue": "Loftus Versfeld Stadium, Pretoria",
+      "postponed": false,
+      "officialId": null,
+      "note": null
+    },
+    {
       "home": "MIL",
       "away": "MGA",
       "homeTeam": "Milford",
@@ -2977,22 +2993,6 @@
       "date": "2027-01-09",
       "time": "15:30",
       "venue": "Mbombela Stadium, Nelspruit",
-      "postponed": false,
-      "officialId": null,
-      "note": null
-    },
-    {
-      "home": "MSU",
-      "away": "OPR",
-      "homeTeam": "Mamelodi Sundowns",
-      "awayTeam": "Orlando Pirates",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
-      "round": 15,
-      "date": "2027-01-09",
-      "time": "15:30",
-      "venue": "Loftus Versfeld Stadium, Pretoria",
       "postponed": false,
       "officialId": null,
       "note": null
@@ -3078,22 +3078,6 @@
       "note": null
     },
     {
-      "home": "RBA",
-      "away": "DCI",
-      "homeTeam": "Richards Bay",
-      "awayTeam": "Durban City",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
-      "round": 16,
-      "date": "2027-01-15",
-      "time": "19:30",
-      "venue": "Richards Bay Stadium, Richards Bay",
-      "postponed": false,
-      "officialId": null,
-      "note": null
-    },
-    {
       "home": "CHP",
       "away": "GDA",
       "homeTeam": "Chippa United",
@@ -3121,22 +3105,6 @@
       "date": "2027-01-16",
       "time": "15:30",
       "venue": "Mbombela Stadium, Nelspruit",
-      "postponed": false,
-      "officialId": null,
-      "note": null
-    },
-    {
-      "home": "OPR",
-      "away": "AMA",
-      "homeTeam": "Orlando Pirates",
-      "awayTeam": "AmaZulu",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
-      "round": 16,
-      "date": "2027-01-16",
-      "time": "15:30",
-      "venue": "Orlando Amstel Arena, Soweto",
       "postponed": false,
       "officialId": null,
       "note": null
@@ -3313,6 +3281,38 @@
       "date": "2027-01-24",
       "time": "15:30",
       "venue": "Mbombela Stadium, Nelspruit",
+      "postponed": false,
+      "officialId": null,
+      "note": null
+    },
+    {
+      "home": "OPR",
+      "away": "AMA",
+      "homeTeam": "Orlando Pirates",
+      "awayTeam": "AmaZulu",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "round": 16,
+      "date": "2027-01-26",
+      "time": "19:30",
+      "venue": "Orlando Amstel Arena, Soweto",
+      "postponed": false,
+      "officialId": null,
+      "note": null
+    },
+    {
+      "home": "RBA",
+      "away": "DCI",
+      "homeTeam": "Richards Bay",
+      "awayTeam": "Durban City",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "round": 16,
+      "date": "2027-01-27",
+      "time": "19:30",
+      "venue": "Richards Bay Stadium, Richards Bay",
       "postponed": false,
       "officialId": null,
       "note": null

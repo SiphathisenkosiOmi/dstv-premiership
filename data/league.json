@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T11:45:32.886Z",
+  "generatedAt": "2026-11-19T20:41:41.705Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -145,8 +145,8 @@
         "opponent": "Kruger United",
         "home": false,
         "date": "2026-11-28",
-        "time": "20:15",
-        "venue": "Mbombela Stadium, Nelspruit",
+        "time": "18:00",
+        "venue": "Solomon Mahlangu Stadium, KwaMhlanga",
         "certain": true
       }
     },
@@ -681,8 +681,8 @@
         "opponent": "Mamelodi Sundowns",
         "home": true,
         "date": "2026-11-28",
-        "time": "20:15",
-        "venue": "Mbombela Stadium, Nelspruit",
+        "time": "18:00",
+        "venue": "Solomon Mahlangu Stadium, KwaMhlanga",
         "certain": true
       }
     },
@@ -2527,8 +2527,8 @@
       "played": false,
       "round": null,
       "date": "2026-11-28",
-      "time": "20:15",
-      "venue": "Mbombela Stadium, Nelspruit",
+      "time": "18:00",
+      "venue": "Solomon Mahlangu Stadium, KwaMhlanga",
       "postponed": false,
       "officialId": null,
       "note": null

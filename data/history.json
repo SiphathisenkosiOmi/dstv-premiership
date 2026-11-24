@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T13:49:43.257Z",
+  "updatedAt": "2026-11-24T23:54:52.745Z",
   "snapshots": [
     {
       "date": "2026-09-11",
@@ -9993,24 +9993,24 @@
     },
     {
       "date": "2026-11-24",
-      "capturedAt": "2026-11-24T13:49:43.257Z",
+      "capturedAt": "2026-11-24T23:54:52.745Z",
       "season": "2026-27",
       "standings": [
         {
+          "code": "OPR",
+          "team": "Orlando Pirates",
+          "position": 1,
+          "played": 10,
+          "points": 28,
+          "goalDifference": 21
+        },
+        {
           "code": "MSU",
           "team": "Mamelodi Sundowns",
-          "position": 1,
+          "position": 2,
           "played": 10,
           "points": 26,
           "goalDifference": 18
-        },
-        {
-          "code": "OPR",
-          "team": "Orlando Pirates",
-          "position": 2,
-          "played": 9,
-          "points": 25,
-          "goalDifference": 19
         },
         {
           "code": "AMA",
@@ -10061,9 +10061,17 @@
           "goalDifference": -1
         },
         {
+          "code": "DCI",
+          "team": "Durban City",
+          "position": 9,
+          "played": 10,
+          "points": 10,
+          "goalDifference": -3
+        },
+        {
           "code": "KRU",
           "team": "Kruger United",
-          "position": 9,
+          "position": 10,
           "played": 9,
           "points": 10,
           "goalDifference": -6
@@ -10071,30 +10079,22 @@
         {
           "code": "GDA",
           "team": "Lamontville Golden Arrows",
-          "position": 10,
-          "played": 9,
+          "position": 11,
+          "played": 10,
           "points": 8,
-          "goalDifference": -2
+          "goalDifference": -4
         },
         {
           "code": "PLK",
           "team": "Polokwane City",
-          "position": 11,
-          "played": 9,
+          "position": 12,
+          "played": 10,
           "points": 8,
-          "goalDifference": -3
+          "goalDifference": -5
         },
         {
           "code": "TSG",
           "team": "TS Galaxy",
-          "position": 12,
-          "played": 9,
-          "points": 7,
-          "goalDifference": -5
-        },
-        {
-          "code": "DCI",
-          "team": "Durban City",
           "position": 13,
           "played": 9,
           "points": 7,

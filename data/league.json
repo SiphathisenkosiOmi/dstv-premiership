@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T13:49:43.257Z",
+  "generatedAt": "2026-11-24T23:54:52.745Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -32,7 +32,7 @@
       "name": "Wikipedia",
       "detail": "2026–27 South African Premiership",
       "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_South_African_Premiership",
-      "lastUpdated": "2026-10-31",
+      "lastUpdated": "2026-11-24",
       "available": true,
       "provides": [
         "full results grid",
@@ -54,7 +54,7 @@
   "coverage": {
     "teams": 16,
     "matchesKnown": 240,
-    "matchesPlayed": 73,
+    "matchesPlayed": 75,
     "matchesWithKickoff": 240,
     "upcomingWithoutKickoff": 0,
     "officialLogApplied": true,
@@ -84,6 +84,73 @@
   ],
   "standings": [
     {
+      "code": "OPR",
+      "team": "Orlando Pirates",
+      "article": "Orlando Pirates F.C.",
+      "played": 10,
+      "won": 9,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 23,
+      "goalsAgainst": 2,
+      "goalDifference": 21,
+      "points": 28,
+      "pointsAdjustment": 0,
+      "note": null,
+      "position": 1,
+      "zone": "CCL",
+      "zoneLabel": "Qualification for CAF Champions League",
+      "zoneColour": "#2ecc71",
+      "badge": "https://imageorigin.supersport.com/psl/clublogos/Orlando%20Pirates.png",
+      "officialName": "Orlando Pirates",
+      "form": [
+        {
+          "outcome": "W",
+          "opponent": "Durban City",
+          "score": "2-0",
+          "date": "2026-09-17",
+          "home": true
+        },
+        {
+          "outcome": "W",
+          "opponent": "Marumo Gallants",
+          "score": "2-0",
+          "date": "2026-09-20",
+          "home": false
+        },
+        {
+          "outcome": "W",
+          "opponent": "TS Galaxy",
+          "score": "3-0",
+          "date": "2026-10-13",
+          "home": true
+        },
+        {
+          "outcome": "W",
+          "opponent": "Kaizer Chiefs",
+          "score": "2-1",
+          "date": "2026-10-31",
+          "home": true
+        },
+        {
+          "outcome": "W",
+          "opponent": "Lamontville Golden Arrows",
+          "score": "2-0",
+          "date": "2026-11-24",
+          "home": true
+        }
+      ],
+      "formComplete": true,
+      "nextFixture": {
+        "opponent": "Stellenbosch",
+        "home": true,
+        "date": "2026-12-08",
+        "time": "19:30",
+        "venue": "Orlando Amstel Arena, Soweto",
+        "certain": true
+      }
+    },
+    {
       "code": "MSU",
       "team": "Mamelodi Sundowns",
       "article": "Mamelodi Sundowns F.C.",
@@ -97,7 +164,7 @@
       "points": 26,
       "pointsAdjustment": 0,
       "note": null,
-      "position": 1,
+      "position": 2,
       "zone": "CCL",
       "zoneLabel": "Qualification for CAF Champions League",
       "zoneColour": "#2ecc71",
@@ -147,73 +214,6 @@
         "date": "2026-11-28",
         "time": "18:00",
         "venue": "Solomon Mahlangu Stadium, KwaMhlanga",
-        "certain": true
-      }
-    },
-    {
-      "code": "OPR",
-      "team": "Orlando Pirates",
-      "article": "Orlando Pirates F.C.",
-      "played": 9,
-      "won": 8,
-      "drawn": 1,
-      "lost": 0,
-      "goalsFor": 21,
-      "goalsAgainst": 2,
-      "goalDifference": 19,
-      "points": 25,
-      "pointsAdjustment": 0,
-      "note": null,
-      "position": 2,
-      "zone": "CCL",
-      "zoneLabel": "Qualification for CAF Champions League",
-      "zoneColour": "#2ecc71",
-      "badge": "https://imageorigin.supersport.com/psl/clublogos/Orlando%20Pirates.png",
-      "officialName": "Orlando Pirates",
-      "form": [
-        {
-          "outcome": "W",
-          "opponent": "Kruger United",
-          "score": "4-0",
-          "date": "2026-09-01",
-          "home": false
-        },
-        {
-          "outcome": "W",
-          "opponent": "Durban City",
-          "score": "2-0",
-          "date": "2026-09-17",
-          "home": true
-        },
-        {
-          "outcome": "W",
-          "opponent": "Marumo Gallants",
-          "score": "2-0",
-          "date": "2026-09-20",
-          "home": false
-        },
-        {
-          "outcome": "W",
-          "opponent": "TS Galaxy",
-          "score": "3-0",
-          "date": "2026-10-13",
-          "home": true
-        },
-        {
-          "outcome": "W",
-          "opponent": "Kaizer Chiefs",
-          "score": "2-1",
-          "date": "2026-10-31",
-          "home": true
-        }
-      ],
-      "formComplete": true,
-      "nextFixture": {
-        "opponent": "Lamontville Golden Arrows",
-        "home": true,
-        "date": "2026-11-24",
-        "time": "19:30",
-        "venue": "Orlando Amstel Arena, Soweto",
         "certain": true
       }
     },
@@ -620,6 +620,73 @@
       }
     },
     {
+      "code": "DCI",
+      "team": "Durban City",
+      "article": "Durban City F.C. (2024)",
+      "played": 10,
+      "won": 2,
+      "drawn": 4,
+      "lost": 4,
+      "goalsFor": 9,
+      "goalsAgainst": 12,
+      "goalDifference": -3,
+      "points": 10,
+      "pointsAdjustment": 0,
+      "note": null,
+      "position": 9,
+      "zone": null,
+      "zoneLabel": null,
+      "zoneColour": null,
+      "badge": "https://imageorigin.supersport.com/psl/clublogos/Durban%20City.png",
+      "officialName": "Durban City",
+      "form": [
+        {
+          "outcome": "L",
+          "opponent": "Orlando Pirates",
+          "score": "0-2",
+          "date": "2026-09-17",
+          "home": false
+        },
+        {
+          "outcome": "D",
+          "opponent": "Milford",
+          "score": "1-1",
+          "date": "2026-09-20",
+          "home": false
+        },
+        {
+          "outcome": "L",
+          "opponent": "AmaZulu",
+          "score": "1-2",
+          "date": "2026-10-13",
+          "home": true
+        },
+        {
+          "outcome": "L",
+          "opponent": "Mamelodi Sundowns",
+          "score": "1-4",
+          "date": "2026-10-31",
+          "home": false
+        },
+        {
+          "outcome": "W",
+          "opponent": "Polokwane City",
+          "score": "3-1",
+          "date": "2026-11-24",
+          "home": true
+        }
+      ],
+      "formComplete": true,
+      "nextFixture": {
+        "opponent": "Siwelele",
+        "home": false,
+        "date": "2026-12-06",
+        "time": "15:30",
+        "venue": "Dr Molemela Stadium, Bloemfontein",
+        "certain": true
+      }
+    },
+    {
       "code": "KRU",
       "team": "Kruger United",
       "article": "Kruger United F.C.",
@@ -633,7 +700,7 @@
       "points": 10,
       "pointsAdjustment": 0,
       "note": null,
-      "position": 9,
+      "position": 10,
       "zone": null,
       "zoneLabel": null,
       "zoneColour": null,
@@ -690,30 +757,23 @@
       "code": "GDA",
       "team": "Lamontville Golden Arrows",
       "article": "Lamontville Golden Arrows F.C.",
-      "played": 9,
+      "played": 10,
       "won": 1,
       "drawn": 5,
-      "lost": 3,
+      "lost": 4,
       "goalsFor": 3,
-      "goalsAgainst": 5,
-      "goalDifference": -2,
+      "goalsAgainst": 7,
+      "goalDifference": -4,
       "points": 8,
       "pointsAdjustment": 0,
       "note": null,
-      "position": 10,
+      "position": 11,
       "zone": null,
       "zoneLabel": null,
       "zoneColour": null,
       "badge": "https://imageorigin.supersport.com/psl/clublogos/Golden%20Arrows.png",
       "officialName": "Golden Arrows",
       "form": [
-        {
-          "outcome": "L",
-          "opponent": "Mamelodi Sundowns",
-          "score": "1-2",
-          "date": "2026-09-06",
-          "home": true
-        },
         {
           "outcome": "D",
           "opponent": "Siwelele",
@@ -741,15 +801,22 @@
           "score": "0-1",
           "date": "2026-10-31",
           "home": false
+        },
+        {
+          "outcome": "L",
+          "opponent": "Orlando Pirates",
+          "score": "0-2",
+          "date": "2026-11-24",
+          "home": false
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Orlando Pirates",
-        "home": false,
-        "date": "2026-11-24",
-        "time": "19:30",
-        "venue": "Orlando Amstel Arena, Soweto",
+        "opponent": "Kruger United",
+        "home": true,
+        "date": "2026-12-05",
+        "time": "15:30",
+        "venue": "King Goodwill Zwelithini Stadium, Durban",
         "certain": true
       }
     },
@@ -757,30 +824,23 @@
       "code": "PLK",
       "team": "Polokwane City",
       "article": "Polokwane City F.C.",
-      "played": 9,
+      "played": 10,
       "won": 1,
       "drawn": 5,
-      "lost": 3,
-      "goalsFor": 8,
-      "goalsAgainst": 11,
-      "goalDifference": -3,
+      "lost": 4,
+      "goalsFor": 9,
+      "goalsAgainst": 14,
+      "goalDifference": -5,
       "points": 8,
       "pointsAdjustment": 0,
       "note": null,
-      "position": 11,
+      "position": 12,
       "zone": null,
       "zoneLabel": null,
       "zoneColour": null,
       "badge": "https://imageorigin.supersport.com/psl/clublogos/Polokwane%20City.png",
       "officialName": "Polokwane City",
       "form": [
-        {
-          "outcome": "D",
-          "opponent": "Marumo Gallants",
-          "score": "2-2",
-          "date": "2026-09-04",
-          "home": false
-        },
         {
           "outcome": "D",
           "opponent": "Kaizer Chiefs",
@@ -808,15 +868,22 @@
           "score": "0-0",
           "date": "2026-10-31",
           "home": true
+        },
+        {
+          "outcome": "L",
+          "opponent": "Durban City",
+          "score": "1-3",
+          "date": "2026-11-24",
+          "home": false
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Durban City",
+        "opponent": "Mamelodi Sundowns",
         "home": false,
-        "date": "2026-11-24",
-        "time": "19:30",
-        "venue": "Chatsworth Stadium, Chatsworth",
+        "date": "2026-12-05",
+        "time": "18:00",
+        "venue": "Loftus Versfeld Stadium, Pretoria",
         "certain": true
       }
     },
@@ -834,7 +901,7 @@
       "points": 7,
       "pointsAdjustment": 0,
       "note": null,
-      "position": 12,
+      "position": 13,
       "zone": null,
       "zoneLabel": null,
       "zoneColour": null,
@@ -884,73 +951,6 @@
         "date": "2026-11-27",
         "time": "19:30",
         "venue": "Danie Craven Stadium, Stellenbosch",
-        "certain": true
-      }
-    },
-    {
-      "code": "DCI",
-      "team": "Durban City",
-      "article": "Durban City F.C. (2024)",
-      "played": 9,
-      "won": 1,
-      "drawn": 4,
-      "lost": 4,
-      "goalsFor": 6,
-      "goalsAgainst": 11,
-      "goalDifference": -5,
-      "points": 7,
-      "pointsAdjustment": 0,
-      "note": null,
-      "position": 13,
-      "zone": null,
-      "zoneLabel": null,
-      "zoneColour": null,
-      "badge": "https://imageorigin.supersport.com/psl/clublogos/Durban%20City.png",
-      "officialName": "Durban City",
-      "form": [
-        {
-          "outcome": "D",
-          "opponent": "Stellenbosch",
-          "score": "0-0",
-          "date": "2026-09-01",
-          "home": true
-        },
-        {
-          "outcome": "L",
-          "opponent": "Orlando Pirates",
-          "score": "0-2",
-          "date": "2026-09-17",
-          "home": false
-        },
-        {
-          "outcome": "D",
-          "opponent": "Milford",
-          "score": "1-1",
-          "date": "2026-09-20",
-          "home": false
-        },
-        {
-          "outcome": "L",
-          "opponent": "AmaZulu",
-          "score": "1-2",
-          "date": "2026-10-13",
-          "home": true
-        },
-        {
-          "outcome": "L",
-          "opponent": "Mamelodi Sundowns",
-          "score": "1-4",
-          "date": "2026-10-31",
-          "home": false
-        }
-      ],
-      "formComplete": true,
-      "nextFixture": {
-        "opponent": "Polokwane City",
-        "home": true,
-        "date": "2026-11-24",
-        "time": "19:30",
-        "venue": "Chatsworth Stadium, Chatsworth",
         "certain": true
       }
     },
@@ -2442,15 +2442,15 @@
       "away": "PLK",
       "homeTeam": "Durban City",
       "awayTeam": "Polokwane City",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
+      "homeScore": 3,
+      "awayScore": 1,
+      "played": true,
       "round": 11,
       "date": "2026-11-24",
       "time": "19:30",
       "venue": "Chatsworth Stadium, Chatsworth",
       "postponed": false,
-      "officialId": null,
+      "officialId": "2674058",
       "note": null
     },
     {
@@ -2458,15 +2458,15 @@
       "away": "GDA",
       "homeTeam": "Orlando Pirates",
       "awayTeam": "Lamontville Golden Arrows",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
+      "homeScore": 2,
+      "awayScore": 0,
+      "played": true,
       "round": 11,
       "date": "2026-11-24",
       "time": "19:30",
       "venue": "Orlando Amstel Arena, Soweto",
       "postponed": false,
-      "officialId": null,
+      "officialId": "2674062",
       "note": null
     },
     {

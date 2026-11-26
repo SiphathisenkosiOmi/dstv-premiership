@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T03:36:10.382Z",
+  "generatedAt": "2026-11-26T16:58:23.220Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -2598,6 +2598,22 @@
       "note": null
     },
     {
+      "home": "MIL",
+      "away": "KZC",
+      "homeTeam": "Milford",
+      "awayTeam": "Kaizer Chiefs",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "round": null,
+      "date": "2026-12-05",
+      "time": "15:30",
+      "venue": "Chatsworth Stadium, Chatsworth",
+      "postponed": false,
+      "officialId": null,
+      "note": null
+    },
+    {
       "home": "MSU",
       "away": "PLK",
       "homeTeam": "Mamelodi Sundowns",
@@ -2625,22 +2641,6 @@
       "date": "2026-12-05",
       "time": "18:00",
       "venue": "Peter Mokaba Stadium, Polokwane",
-      "postponed": false,
-      "officialId": null,
-      "note": null
-    },
-    {
-      "home": "MIL",
-      "away": "KZC",
-      "homeTeam": "Milford",
-      "awayTeam": "Kaizer Chiefs",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
-      "round": null,
-      "date": "2026-12-05",
-      "time": "20:15",
-      "venue": "Richards Bay Stadium, Richards Bay",
       "postponed": false,
       "officialId": null,
       "note": null
@@ -5034,6 +5034,14 @@
       },
       {
         "rank": 4,
+        "player": "Boitumelo Radiopane",
+        "article": "Boitumelo Radiopane",
+        "nationality": "RSA",
+        "club": "Orlando Pirates",
+        "value": 4
+      },
+      {
+        "rank": 4,
         "player": "Iqraam Rayners",
         "article": "Iqraam Rayners",
         "nationality": "RSA",
@@ -5070,14 +5078,6 @@
         "article": "Tashreeq Matthews",
         "nationality": "RSA",
         "club": "Mamelodi Sundowns",
-        "value": 3
-      },
-      {
-        "rank": 7,
-        "player": "Yanela Mbuthuma",
-        "article": "Yanela Mbuthuma",
-        "nationality": "RSA",
-        "club": "Orlando Pirates",
         "value": 3
       }
     ],

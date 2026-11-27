@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T12:30:53.118Z",
+  "updatedAt": "2026-11-27T23:29:09.234Z",
   "snapshots": [
     {
       "date": "2026-09-11",
@@ -10398,7 +10398,7 @@
     },
     {
       "date": "2026-11-27",
-      "capturedAt": "2026-11-27T12:30:53.118Z",
+      "capturedAt": "2026-11-27T23:29:09.234Z",
       "season": "2026-27",
       "standings": [
         {
@@ -10450,19 +10450,19 @@
           "goalDifference": 0
         },
         {
-          "code": "CHP",
-          "team": "Chippa United",
-          "position": 7,
-          "played": 9,
-          "points": 11,
-          "goalDifference": -1
-        },
-        {
           "code": "STL",
           "team": "Stellenbosch",
+          "position": 7,
+          "played": 10,
+          "points": 13,
+          "goalDifference": 0
+        },
+        {
+          "code": "CHP",
+          "team": "Chippa United",
           "position": 8,
           "played": 9,
-          "points": 10,
+          "points": 11,
           "goalDifference": -1
         },
         {
@@ -10501,9 +10501,9 @@
           "code": "TSG",
           "team": "TS Galaxy",
           "position": 13,
-          "played": 9,
+          "played": 10,
           "points": 7,
-          "goalDifference": -5
+          "goalDifference": -6
         },
         {
           "code": "SIW",

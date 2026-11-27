@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T12:30:53.118Z",
+  "generatedAt": "2026-11-27T23:29:09.234Z",
   "season": {
     "label": "2026-27",
     "display": "2026/27",
@@ -54,7 +54,7 @@
   "coverage": {
     "teams": 16,
     "matchesKnown": 240,
-    "matchesPlayed": 75,
+    "matchesPlayed": 76,
     "matchesWithKickoff": 240,
     "upcomingWithoutKickoff": 0,
     "officialLogApplied": true,
@@ -486,6 +486,73 @@
       }
     },
     {
+      "code": "STL",
+      "team": "Stellenbosch",
+      "article": "Stellenbosch F.C.",
+      "played": 10,
+      "won": 3,
+      "drawn": 4,
+      "lost": 3,
+      "goalsFor": 10,
+      "goalsAgainst": 10,
+      "goalDifference": 0,
+      "points": 13,
+      "pointsAdjustment": 0,
+      "note": null,
+      "position": 7,
+      "zone": null,
+      "zoneLabel": null,
+      "zoneColour": null,
+      "badge": "https://imageorigin.supersport.com/psl/clublogos/Stellenbosch%20FC.png",
+      "officialName": "Stellenbosch FC",
+      "form": [
+        {
+          "outcome": "D",
+          "opponent": "Sekhukhune United",
+          "score": "1-1",
+          "date": "2026-09-11",
+          "home": true
+        },
+        {
+          "outcome": "W",
+          "opponent": "Kruger United",
+          "score": "1-0",
+          "date": "2026-09-19",
+          "home": false
+        },
+        {
+          "outcome": "D",
+          "opponent": "Kaizer Chiefs",
+          "score": "1-1",
+          "date": "2026-10-13",
+          "home": false
+        },
+        {
+          "outcome": "L",
+          "opponent": "Chippa United",
+          "score": "0-2",
+          "date": "2026-10-31",
+          "home": true
+        },
+        {
+          "outcome": "W",
+          "opponent": "TS Galaxy",
+          "score": "1-0",
+          "date": "2026-11-27",
+          "home": true
+        }
+      ],
+      "formComplete": true,
+      "nextFixture": {
+        "opponent": "Orlando Pirates",
+        "home": false,
+        "date": "2026-12-08",
+        "time": "19:30",
+        "venue": "Orlando Amstel Arena, Soweto",
+        "certain": true
+      }
+    },
+    {
       "code": "CHP",
       "team": "Chippa United",
       "article": "Chippa United F.C.",
@@ -499,7 +566,7 @@
       "points": 11,
       "pointsAdjustment": 0,
       "note": null,
-      "position": 7,
+      "position": 8,
       "zone": null,
       "zoneLabel": null,
       "zoneColour": null,
@@ -549,73 +616,6 @@
         "date": "2026-11-28",
         "time": "15:30",
         "venue": "Nelson Mandela Bay Stadium, Gqeberha",
-        "certain": true
-      }
-    },
-    {
-      "code": "STL",
-      "team": "Stellenbosch",
-      "article": "Stellenbosch F.C.",
-      "played": 9,
-      "won": 2,
-      "drawn": 4,
-      "lost": 3,
-      "goalsFor": 9,
-      "goalsAgainst": 10,
-      "goalDifference": -1,
-      "points": 10,
-      "pointsAdjustment": 0,
-      "note": null,
-      "position": 8,
-      "zone": null,
-      "zoneLabel": null,
-      "zoneColour": null,
-      "badge": "https://imageorigin.supersport.com/psl/clublogos/Stellenbosch%20FC.png",
-      "officialName": "Stellenbosch FC",
-      "form": [
-        {
-          "outcome": "D",
-          "opponent": "Durban City",
-          "score": "0-0",
-          "date": "2026-09-01",
-          "home": false
-        },
-        {
-          "outcome": "D",
-          "opponent": "Sekhukhune United",
-          "score": "1-1",
-          "date": "2026-09-11",
-          "home": true
-        },
-        {
-          "outcome": "W",
-          "opponent": "Kruger United",
-          "score": "1-0",
-          "date": "2026-09-19",
-          "home": false
-        },
-        {
-          "outcome": "D",
-          "opponent": "Kaizer Chiefs",
-          "score": "1-1",
-          "date": "2026-10-13",
-          "home": false
-        },
-        {
-          "outcome": "L",
-          "opponent": "Chippa United",
-          "score": "0-2",
-          "date": "2026-10-31",
-          "home": true
-        }
-      ],
-      "formComplete": true,
-      "nextFixture": {
-        "opponent": "TS Galaxy",
-        "home": true,
-        "date": "2026-11-27",
-        "time": "19:30",
-        "venue": "Danie Craven Stadium, Stellenbosch",
         "certain": true
       }
     },
@@ -891,13 +891,13 @@
       "code": "TSG",
       "team": "TS Galaxy",
       "article": "TS Galaxy F.C.",
-      "played": 9,
+      "played": 10,
       "won": 1,
       "drawn": 4,
-      "lost": 4,
+      "lost": 5,
       "goalsFor": 7,
-      "goalsAgainst": 12,
-      "goalDifference": -5,
+      "goalsAgainst": 13,
+      "goalDifference": -6,
       "points": 7,
       "pointsAdjustment": 0,
       "note": null,
@@ -908,13 +908,6 @@
       "badge": "https://imageorigin.supersport.com/psl/clublogos/TS%20Galaxy.png",
       "officialName": "TS Galaxy",
       "form": [
-        {
-          "outcome": "D",
-          "opponent": "Sekhukhune United",
-          "score": "0-0",
-          "date": "2026-09-05",
-          "home": false
-        },
         {
           "outcome": "L",
           "opponent": "Kruger United",
@@ -942,15 +935,22 @@
           "score": "0-0",
           "date": "2026-10-31",
           "home": false
+        },
+        {
+          "outcome": "L",
+          "opponent": "Stellenbosch",
+          "score": "0-1",
+          "date": "2026-11-27",
+          "home": false
         }
       ],
       "formComplete": true,
       "nextFixture": {
-        "opponent": "Stellenbosch",
-        "home": false,
-        "date": "2026-11-27",
-        "time": "19:30",
-        "venue": "Danie Craven Stadium, Stellenbosch",
+        "opponent": "Richards Bay",
+        "home": true,
+        "date": "2026-12-06",
+        "time": "15:30",
+        "venue": "Mbombela Stadium, Nelspruit",
         "certain": true
       }
     },
@@ -2474,15 +2474,15 @@
       "away": "TSG",
       "homeTeam": "Stellenbosch",
       "awayTeam": "TS Galaxy",
-      "homeScore": null,
-      "awayScore": null,
-      "played": false,
+      "homeScore": 1,
+      "awayScore": 0,
+      "played": true,
       "round": 11,
       "date": "2026-11-27",
       "time": "19:30",
       "venue": "Danie Craven Stadium, Stellenbosch",
       "postponed": false,
-      "officialId": null,
+      "officialId": "2674059",
       "note": null
     },
     {
